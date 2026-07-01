@@ -28,13 +28,8 @@ Participants will:
 
 ## Participant Files
 
-- `workflows/opportunity-triage/participant-instructions.md`
-- `workflows/opportunity-triage/data/`
-- `workflows/opportunity-triage/prompt.md`
-- `workflows/opportunity-triage/templates/`
-- `participant/human-review-checklist.md`
+Open the files in the order listed in the [First-Time Participant Path](../START-HERE.md#first-time-participant-path). Start with the [Opportunity Triage Participant Instructions](../workflows/opportunity-triage/participant-instructions.md), and use the [Expected Output Guide](../workflows/opportunity-triage/expected-output-guide.md) after Codex creates the draft.
 
 ## Completion Standard
 
 A participant completes the session by producing and reviewing a draft—not by accepting every Codex change. The output requires qualified human review and is not ready for live procurement use.
-

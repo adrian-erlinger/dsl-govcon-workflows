@@ -5,11 +5,15 @@ A useful draft should:
 - trace every score to the synthetic summary or CSV;
 - use `unknown` when evidence is absent;
 - show separate scores for customer, capability, past performance, delivery, and partner fit;
-- explain why a factor received 0, 1, or 2;
+- use 0 for weak or no evidence, 1 for partial or uncertain evidence, and 2 for strong evidence from the supplied synthetic inputs;
+- define customer fit using only documented customer knowledge or relationship information in the supplied synthetic files;
+- explain why a factor received 0, 1, 2, or `unknown`;
 - treat the total score as a discussion aid;
-- distinguish red flags from missing information;
+- treat red flags as known facts that may create risk and missing information as unanswered questions, not negative facts;
 - make a preliminary recommendation with conditions;
-- assign questions and next steps to reviewer roles rather than invented people.
+- assign questions and next steps to an approved reviewer role: BD lead, capture lead, proposal lead, contracts reviewer, technical SME, pricing lead, or executive reviewer;
+- treat reviewer roles as suggested routing labels, not outside facts about a real team;
+- preserve the statement that both outputs are draft internal workflow aids requiring qualified human review.
 
 ## Review Challenges
 

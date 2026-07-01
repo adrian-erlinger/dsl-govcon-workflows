@@ -2,6 +2,16 @@
 
 A diff is a view of what Codex proposes to add, remove, or change. You do not need to know Git commands to review one.
 
+## Quick Review
+
+Ask five questions:
+
+1. **What changed?** Read the added, removed, or revised content.
+2. **Which files changed?** Confirm that Codex changed only the expected output files.
+3. **Did the output follow the prompt?** Check the requested structure, fields, scores, and questions.
+4. **Did Codex invent facts?** Trace material statements to an approved synthetic input.
+5. **Is human review preserved?** Confirm that the output remains a draft internal workflow aid requiring qualified human review.
+
 ## Review in This Order
 
 1. **File purpose:** Is Codex changing the expected file?
@@ -21,4 +31,3 @@ A diff is a view of what Codex proposes to add, remove, or change. You do not ne
 - language that sounds like professional advice or final approval.
 
 When you see a warning sign, reject or revise that portion of the change. A polished draft can still be wrong.
-
