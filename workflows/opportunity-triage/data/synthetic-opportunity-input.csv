@@ -1,0 +1,15 @@
+field,value,status,source_note
+opportunity_id,SYN-DCS-2030-014,known,Synthetic summary
+customer,Fictional Department of Community Services,known,Synthetic summary
+training_classification_code,000000,known,Synthetic placeholder; not for live use
+competition_approach,Synthetic small-business reserve,known,Synthetic summary
+response_due,2030-09-18 15:00 synthetic local time,known,Synthetic summary
+customer_relationship,None documented,known,Fictional bidder profile
+capability_fit,Workflow documentation and remote facilitation overlap,partial,Fictional bidder profile
+past_performance_fit,One related commercial project with unverified outcome metrics,partial,Fictional bidder profile
+delivery_readiness,May need additional simultaneous facilitators,partial,Known concerns
+partner_readiness,Potential partner identified but not committed,partial,Known concerns
+incumbent_information,,unknown,Unknowns
+pricing_structure,,unknown,Unknowns
+evaluation_criteria,,unknown,Unknowns
+accessibility_acceptance,,unknown,Unknowns

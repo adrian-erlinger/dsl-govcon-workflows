@@ -1,0 +1,31 @@
+# Start Here
+
+Welcome. You do not need to be a software engineer to use this repository.
+
+## Before You Begin
+
+1. Read [Safety and Boundaries](SAFETY-AND-BOUNDARIES.md).
+2. Confirm that you will use only the synthetic files already provided.
+3. Choose the workshop path your facilitator identifies:
+   - [90-minute guided build](workshops/90-minute-guided-build.md)
+   - [3-hour hands-on lab](workshops/3-hour-hands-on-lab.md)
+4. Open the selected workflow's `participant-instructions.md`.
+5. Read the inputs before using the prompt.
+6. Ask Codex to create or update the output files.
+7. Review the changes using [Reviewing Codex Diffs](participant/reviewing-codex-diffs.md).
+8. Apply the [Human Review Checklist](participant/human-review-checklist.md).
+
+## A Simple Working Pattern
+
+Use this cycle for every workflow:
+
+**Inspect → Prompt → Review → Question → Revise**
+
+- **Inspect:** Understand the source files and identify what is missing.
+- **Prompt:** Give Codex a bounded task and a specific output format.
+- **Review:** Examine each proposed file change.
+- **Question:** Challenge assumptions, invented facts, weak evidence, and false certainty.
+- **Revise:** Correct the draft before a qualified person decides whether it is useful.
+
+All outputs are draft internal workflow aids. They are not authoritative and are not ready for live use without qualified human review.
+

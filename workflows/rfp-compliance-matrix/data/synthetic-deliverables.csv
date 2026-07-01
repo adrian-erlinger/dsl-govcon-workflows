@@ -1,0 +1,8 @@
+deliverable_id,deliverable_name,source_section,response_location,known_limit,status
+D-01,Technical Approach,Synthetic L.1 and L.3,Volume 1,12 pages excluding cover and contents,known
+D-02,Management and Staffing,Synthetic L.1 and L.4,Volume 2,8 pages excluding cover and contents,known
+D-03,Synthetic Price Workbook,Synthetic L.1,Volume 3,,partial
+D-04,Signed training representation form,Synthetic L.1,Separate file,,known
+D-05,Resumes,Synthetic L.2 and Attachment B,Attachment B,2 pages each,known
+D-06,Participant information handling description,Synthetic L.5,Not specified,,partial
+D-07,Exceptions and assumptions,Synthetic L.5,Separate assumptions file,Page-limit treatment not specified,partial
