@@ -1,1 +1,2 @@
-requirement_id,requirement_summary,source_section,response_location,required_artifact,page_or_format_limit,evidence_needed,ambiguity_or_risk,review_status,human_review_note
+requirement_id,requirement_summary,source_section,response_location,required_artifact,page_or_format_limit,evidence_needed,compliance_risk,review_status,human_review_note
+EXAMPLE-ONLY,Volume 1 page limit,Synthetic L.2,Volume 1,Technical Approach,"12 pages; cover and contents excluded",Page-count check,Graphics-counting treatment is undefined,Needs qualified review,Synthetic format example only; re-check the source before use

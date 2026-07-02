@@ -1,1 +1,2 @@
 task_id,requirement_id,task_summary,proposed_owner_role,consulted_role,due_date,due_date_status,dependency,review_gate,status,routing_note
+EXAMPLE-ONLY,EXAMPLE-ONLY,Coordinate Volume 1 page-limit check,proposal_operations,proposal_lead,2031-04-22 14:00 synthetic local time,Source deadline; not an internal draft date,Final Volume 1 draft,Proposal lead confirms page count,Not started,Synthetic format example; owner and timing require human confirmation
