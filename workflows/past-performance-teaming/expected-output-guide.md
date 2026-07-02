@@ -1,5 +1,12 @@
 # Expected Output Guide
 
+Use these ratings consistently:
+
+- **Strong:** The supplied synthetic record directly supports the target requirement.
+- **Partial:** The supplied record is relevant, but a threshold, method, scale, recency, capacity, outcome, or confirmation is missing.
+- **Unsupported:** Available records do not support the claim.
+- **Unknown:** The supplied data does not allow a determination.
+
 A useful evidence-fit draft should:
 
 - assess each target requirement separately;
@@ -7,6 +14,7 @@ A useful evidence-fit draft should:
 - distinguish strong, partial, unsupported, and unknown evidence;
 - explain why an apparent match is limited;
 - avoid combining several weak records into an unsupported claim;
+- treat best fit as the best-supported synthetic record, not proof of external validation or customer acceptability;
 - identify questions that could improve the evidence assessment.
 
 A useful teaming-gap draft should:
@@ -15,6 +23,7 @@ A useful teaming-gap draft should:
 - connect partner-profile needs to specific requirements;
 - identify relevant synthetic profiles without endorsing one;
 - preserve unknown availability, interest, qualifications, and capacity;
+- request desired partner evidence for material gaps;
 - list diligence questions before any human decision.
 
 ## Review Challenges
@@ -26,5 +35,6 @@ Ask:
 3. Did it claim accessibility capability from a general digital-guide record?
 4. Did it convert exploratory partner interest into commitment?
 5. Did it imply that evidence relevance proves customer acceptability?
+6. Did it cite multiple records while keeping each record's contribution and limitation separate?
 
-The files are draft internal workflow aids requiring qualified human review. They do not provide legal, procurement, compliance, pricing, cybersecurity, or proposal advice.
+The files, including any teaming recommendation, are draft internal planning aids requiring qualified human review. They do not provide legal, procurement, compliance, pricing, cybersecurity, or proposal advice.

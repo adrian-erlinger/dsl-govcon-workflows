@@ -48,6 +48,23 @@ When your facilitator selects **RFP Compliance Matrix & Proposal Responsibility 
 10. [Reviewing Codex Diffs](participant/reviewing-codex-diffs.md)
 11. [Human Review Checklist](participant/human-review-checklist.md)
 
+## Past Performance & Teaming Participant Path
+
+When your facilitator selects **Past Performance & Teaming Evidence Finder**, open these files in order:
+
+1. [Workflow Overview](workflows/past-performance-teaming/README.md)
+2. [Participant Instructions](workflows/past-performance-teaming/participant-instructions.md)
+3. [Target Requirements](workflows/past-performance-teaming/data/synthetic-target-requirements.csv)
+4. [Past Performance](workflows/past-performance-teaming/data/synthetic-past-performance.csv)
+5. [Staff Capabilities](workflows/past-performance-teaming/data/synthetic-staff-capabilities.csv)
+6. [Partner Profiles](workflows/past-performance-teaming/data/synthetic-partner-profiles.csv)
+7. [Evidence-Fit Brief Template](workflows/past-performance-teaming/templates/evidence-fit-brief.md)
+8. [Teaming Gap Analysis Template](workflows/past-performance-teaming/templates/teaming-gap-analysis.md)
+9. [Workflow Prompt](workflows/past-performance-teaming/prompt.md)
+10. [Expected Output Guide](workflows/past-performance-teaming/expected-output-guide.md)
+11. [Reviewing Codex Diffs](participant/reviewing-codex-diffs.md)
+12. [Human Review Checklist](participant/human-review-checklist.md)
+
 ## A Simple Working Pattern
 
 Use this cycle for every workflow:

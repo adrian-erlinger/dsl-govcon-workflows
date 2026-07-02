@@ -22,6 +22,16 @@ For a compliance matrix or responsibility tracker:
 4. Look for invented requirements, dates, evidence, owners, or status.
 5. Confirm that the proposed owner coordinates the item and any consulted role provides supported specialist input.
 
+## Reviewing Evidence Outputs
+
+For an evidence-fit brief or teaming-gap analysis:
+
+1. Check every cited record ID against the approved synthetic CSV files.
+2. Confirm that every rating is strong, partial, unsupported, or unknown and follows the workflow definitions.
+3. Make sure limitations and material evidence gaps remain visible.
+4. Look for invented past performance, qualifications, outcomes, availability, customer approval, or partner commitments.
+5. Replace overconfident teaming language such as “selected,” “qualified,” or “committed” unless a qualified human has confirmed it.
+
 ## Review in This Order
 
 1. **File purpose:** Is Codex changing the expected file?
