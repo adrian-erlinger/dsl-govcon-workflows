@@ -24,8 +24,7 @@ The output may omit or misinterpret requirements. It is a draft internal workflo
 ## Participant Path
 
 1. Open [Participant Instructions](participant-instructions.md).
-2. Inspect the synthetic RFP excerpt and CSV inputs.
-3. Review the blank templates.
-4. Use [prompt.md](prompt.md).
-5. Compare the result with [Expected Output Guide](expected-output-guide.md).
-
+2. Read the [Synthetic RFP Excerpt](data/synthetic-rfp-excerpt.md), [Deliverables](data/synthetic-deliverables.csv), and [Team Roles](data/synthetic-team-roles.csv).
+3. Review the example format in the [Compliance Matrix Template](templates/compliance-matrix.csv) and [Responsibility Tracker Template](templates/responsibility-tracker.csv).
+4. Use [prompt.md](prompt.md). It already tells Codex which draft files to create.
+5. After generation, compare both drafts with the [Expected Output Guide](expected-output-guide.md).

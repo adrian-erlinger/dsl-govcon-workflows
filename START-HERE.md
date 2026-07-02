@@ -32,6 +32,22 @@ For the default 90-minute workflow, open these files in order:
 9. [Reviewing Codex Diffs](participant/reviewing-codex-diffs.md)
 10. [Human Review Checklist](participant/human-review-checklist.md)
 
+## RFP Compliance Participant Path
+
+When your facilitator selects **RFP Compliance Matrix & Proposal Responsibility Tracker**, open these files in order:
+
+1. [RFP Workflow Overview](workflows/rfp-compliance-matrix/README.md)
+2. [RFP Participant Instructions](workflows/rfp-compliance-matrix/participant-instructions.md)
+3. [Synthetic RFP Excerpt](workflows/rfp-compliance-matrix/data/synthetic-rfp-excerpt.md)
+4. [Synthetic Deliverables](workflows/rfp-compliance-matrix/data/synthetic-deliverables.csv)
+5. [Synthetic Team Roles](workflows/rfp-compliance-matrix/data/synthetic-team-roles.csv)
+6. [Compliance Matrix Template](workflows/rfp-compliance-matrix/templates/compliance-matrix.csv)
+7. [Responsibility Tracker Template](workflows/rfp-compliance-matrix/templates/responsibility-tracker.csv)
+8. [RFP Workflow Prompt](workflows/rfp-compliance-matrix/prompt.md)
+9. [RFP Expected Output Guide](workflows/rfp-compliance-matrix/expected-output-guide.md)
+10. [Reviewing Codex Diffs](participant/reviewing-codex-diffs.md)
+11. [Human Review Checklist](participant/human-review-checklist.md)
+
 ## A Simple Working Pattern
 
 Use this cycle for every workflow:

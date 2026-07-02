@@ -12,6 +12,16 @@ Ask five questions:
 4. **Did Codex invent facts?** Trace material statements to an approved synthetic input.
 5. **Is human review preserved?** Confirm that the output remains a draft internal workflow aid requiring qualified human review.
 
+## Reviewing Dense CSV Changes
+
+For a compliance matrix or responsibility tracker:
+
+1. Compare the number of added rows with the source. More rows are not automatically better.
+2. Confirm that every row uses the expected columns and that values have not shifted into the wrong column.
+3. Check every `source_section` against the approved synthetic input.
+4. Look for invented requirements, dates, evidence, owners, or status.
+5. Confirm that the proposed owner coordinates the item and any consulted role provides supported specialist input.
+
 ## Review in This Order
 
 1. **File purpose:** Is Codex changing the expected file?

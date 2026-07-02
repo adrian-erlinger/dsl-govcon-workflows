@@ -35,14 +35,24 @@ Participants will:
 - **Two workflows:** Full build-and-review cycles for two audience-aligned needs.
 - **Three workflows:** Compact, time-boxed builds with one shared review cycle.
 
+## RFP Compliance Participant Files
+
+When the facilitator selects RFP Compliance Matrix & Proposal Responsibility Tracker, open:
+
+1. [Workflow Overview](../workflows/rfp-compliance-matrix/README.md)
+2. [Participant Instructions](../workflows/rfp-compliance-matrix/participant-instructions.md)
+3. [Synthetic RFP Excerpt](../workflows/rfp-compliance-matrix/data/synthetic-rfp-excerpt.md), [Deliverables](../workflows/rfp-compliance-matrix/data/synthetic-deliverables.csv), and [Team Roles](../workflows/rfp-compliance-matrix/data/synthetic-team-roles.csv)
+4. [Compliance Matrix Template](../workflows/rfp-compliance-matrix/templates/compliance-matrix.csv) and [Responsibility Tracker Template](../workflows/rfp-compliance-matrix/templates/responsibility-tracker.csv)
+5. [Prompt](../workflows/rfp-compliance-matrix/prompt.md)
+6. [Expected Output Guide](../workflows/rfp-compliance-matrix/expected-output-guide.md) after Codex creates the drafts
+
 ## Facilitator Checkpoints
 
 - Stop input use if any participant introduces non-synthetic material.
 - Require at least one source challenge per workflow.
-- preserve time for qualified-review and governance discussion.
+- Preserve time for qualified-review and governance discussion.
 - Remind participants that output completeness is not guaranteed.
 
 ## Completion Standard
 
 Participants succeed when they can explain how an input became a draft output, identify a weakness, and revise it. The number of workflows completed is not the measure of success.
-
