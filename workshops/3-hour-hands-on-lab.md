@@ -35,6 +35,17 @@ Participants will:
 - **Two workflows:** Full build-and-review cycles for two audience-aligned needs.
 - **Three workflows:** Compact, time-boxed builds with one shared review cycle.
 
+## Past Performance & Teaming Participant Files
+
+When the facilitator selects Past Performance & Teaming Evidence Finder, open:
+
+1. [Workflow Overview](../workflows/past-performance-teaming/README.md)
+2. [Participant Instructions](../workflows/past-performance-teaming/participant-instructions.md)
+3. [Target Requirements](../workflows/past-performance-teaming/data/synthetic-target-requirements.csv), [Past Performance](../workflows/past-performance-teaming/data/synthetic-past-performance.csv), [Staff Capabilities](../workflows/past-performance-teaming/data/synthetic-staff-capabilities.csv), and [Partner Profiles](../workflows/past-performance-teaming/data/synthetic-partner-profiles.csv)
+4. [Evidence-Fit Brief Template](../workflows/past-performance-teaming/templates/evidence-fit-brief.md) and [Teaming Gap Analysis Template](../workflows/past-performance-teaming/templates/teaming-gap-analysis.md)
+5. [Prompt](../workflows/past-performance-teaming/prompt.md)
+6. [Expected Output Guide](../workflows/past-performance-teaming/expected-output-guide.md) after Codex creates the drafts
+
 ## Facilitator Checkpoints
 
 - Stop input use if any participant introduces non-synthetic material.
@@ -45,4 +56,3 @@ Participants will:
 ## Completion Standard
 
 Participants succeed when they can explain how an input became a draft output, identify a weakness, and revise it. The number of workflows completed is not the measure of success.
-

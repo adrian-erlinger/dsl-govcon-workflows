@@ -12,6 +12,16 @@ Ask five questions:
 4. **Did Codex invent facts?** Trace material statements to an approved synthetic input.
 5. **Is human review preserved?** Confirm that the output remains a draft internal workflow aid requiring qualified human review.
 
+## Reviewing Evidence Outputs
+
+For an evidence-fit brief or teaming-gap analysis:
+
+1. Check every cited record ID against the approved synthetic CSV files.
+2. Confirm that every rating is strong, partial, unsupported, or unknown and follows the workflow definitions.
+3. Make sure limitations and material evidence gaps remain visible.
+4. Look for invented past performance, qualifications, outcomes, availability, customer approval, or partner commitments.
+5. Replace overconfident teaming language such as “selected,” “qualified,” or “committed” unless a qualified human has confirmed it.
+
 ## Review in This Order
 
 1. **File purpose:** Is Codex changing the expected file?
