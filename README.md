@@ -1,8 +1,22 @@
-# Build GovCon Workflow Tools With Codex
+# Build Reviewable GovCon AI Workflows With Codex
 
-This private training repository helps GovCon professionals use Codex to create structured, reviewable internal workflow aids from synthetic data.
+This private training repository helps GovCon professionals use Codex to create structured, reviewable internal workflow assets from synthetic data. Participants build briefs, trackers, checklists, and review questions in Markdown and CSV—not software, autonomous systems, or production applications.
 
-The training is designed for founders, business development leads, capture managers, proposal managers, operations leads, and other technical or non-technical leaders. No software-engineering experience is required.
+## Who This Workshop Is For
+
+This training is for people who structure, coordinate, or review GovCon opportunity, capture, proposal, teaming, and operations work. Participants may include founders, business development leads, capture managers, proposal managers, operations leads, and other technical or non-technical contributors.
+
+No software-engineering experience is required.
+
+## What You Will Build
+
+Depending on the workshop path, you will create and review one or more draft workflow assets:
+
+1. an opportunity intake and bid/no-bid brief;
+2. an RFP compliance matrix and proposal responsibility tracker;
+3. a past-performance evidence-fit brief and teaming-gap analysis.
+
+These assets organize source information, reasoning, unknowns, ownership, risks, and review questions. They support qualified human review; they do not make final pursuit, proposal, compliance, or teaming decisions.
 
 ## What You Will Practice
 
@@ -22,15 +36,20 @@ The three workflows are:
 
 ## Start Here
 
-Open [START-HERE.md](START-HERE.md) for the participant path. Facilitators should also read the [facilitator guide](facilitator/facilitator-guide.md).
+Participants should open [START-HERE.md](START-HERE.md). Facilitators should also read the [facilitator guide](facilitator/facilitator-guide.md).
 
 ## Important Boundary
 
-This training does not provide legal, procurement, compliance, pricing, cybersecurity, or proposal advice. It teaches participants how to create draft internal workflow aids, templates, checklists, and prototypes. Every output requires review by qualified personnel before use in any live procurement activity.
+This training does not provide legal, procurement, compliance, pricing, cybersecurity, or proposal advice. It teaches participants how to create draft internal workflow assets, templates, checklists, and review questions. Every output requires review by qualified personnel before use in any live procurement activity.
 
 All repository data is fictional and synthetic. Do not add real company data, proposal data, procurement data, client data, secrets, confidential information, or proprietary material.
 
-## Repository Design
+## Why Markdown and CSV
 
-This version uses only Markdown and CSV files. It includes no application, package dependencies, live integrations, automated submissions, or connections to external systems.
+This repository uses only Markdown and CSV files:
 
+- **Markdown** keeps briefs, prompts, instructions, and review notes readable as plain text.
+- **CSV** keeps structured records visible in familiar rows and columns.
+- Both formats make Codex changes easy to inspect, compare, question, and revise.
+
+The goal is to practice building reviewable workflow assets, not to develop software. The repository includes no application, package dependencies, live integrations, automated submissions, or connections to external systems.
