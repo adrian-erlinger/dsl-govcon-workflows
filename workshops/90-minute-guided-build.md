@@ -28,7 +28,19 @@ Participants will:
 
 ## Participant Files
 
-Open the files in the order listed in the [First-Time Participant Path](../START-HERE.md#first-time-participant-path). Start with the [Opportunity Triage Participant Instructions](../workflows/opportunity-triage/participant-instructions.md), and use the [Expected Output Guide](../workflows/opportunity-triage/expected-output-guide.md) after Codex creates the draft.
+For the default path, open these files in order:
+
+1. [Opportunity Triage Participant Instructions](../workflows/opportunity-triage/participant-instructions.md)
+2. [Synthetic Opportunity Summary](../workflows/opportunity-triage/data/synthetic-opportunity-summary.md)
+3. [Synthetic Opportunity Input](../workflows/opportunity-triage/data/synthetic-opportunity-input.csv)
+4. [Opportunity Intake Template](../workflows/opportunity-triage/templates/opportunity-intake.md)
+5. [Bid/No-Bid Brief Template](../workflows/opportunity-triage/templates/bid-no-bid-brief.md)
+6. [Opportunity Triage Prompt](../workflows/opportunity-triage/prompt.md)
+7. [Expected Output Guide](../workflows/opportunity-triage/expected-output-guide.md)
+8. [Reviewing Codex Diffs](../participant/reviewing-codex-diffs.md)
+9. [Human Review Checklist](../participant/human-review-checklist.md)
+
+This is the same sequence listed in the [First-Time Participant Path](../START-HERE.md#first-time-participant-path).
 
 ## Completion Standard
 

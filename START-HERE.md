@@ -27,7 +27,7 @@ Success means producing, checking, questioning, and revising a draft—not accep
    - [3-hour hands-on lab](workshops/3-hour-hands-on-lab.md)
 4. If no path was assigned, use the default 90-minute **Opportunity Triage & Bid/No-Bid Brief** path below.
 
-When you review a diff, you are reviewing the file changes Codex proposes. You do not need to know Git commands or programming to do this.
+When you [review a diff](participant/reviewing-codex-diffs.md), you are reviewing the file changes Codex proposes. You do not need to know Git commands or programming to do this.
 
 ## First-Time Participant Path
 
