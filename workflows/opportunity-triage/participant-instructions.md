@@ -2,7 +2,7 @@
 
 ## Goal
 
-Create a first-pass opportunity brief from the provided synthetic files.
+Create a first-pass opportunity intake worksheet and bid/no-bid brief from the provided synthetic files.
 
 ## Working Definitions
 
@@ -18,17 +18,17 @@ Approved reviewer roles are: **BD lead, capture lead, proposal lead, contracts r
 
 ## Steps
 
-1. Read `data/synthetic-opportunity-summary.md`.
-2. Open `data/synthetic-opportunity-input.csv` and identify known and missing fields.
-3. Review the output structures in `templates/`.
-4. Copy the prompt from `prompt.md` into Codex. The prompt already tells Codex to create both draft files outside the `templates/` folder.
-5. Inspect the diff: confirm what changed, which files changed, whether the drafts followed the prompt, whether any facts were invented, and whether qualified human review remains required.
-6. Compare the drafts with `expected-output-guide.md`.
+1. Read the [synthetic opportunity summary](data/synthetic-opportunity-summary.md).
+2. Open the [synthetic opportunity input CSV](data/synthetic-opportunity-input.csv) and use the `status` column to identify which fields are known, partial, or unknown.
+3. Review the output structures in the [opportunity intake template](templates/opportunity-intake.md) and [bid/no-bid brief template](templates/bid-no-bid-brief.md).
+4. Open the [opportunity triage prompt](prompt.md), copy the full text inside the code block, and paste it into Codex. The prompt already tells Codex to create both draft files outside the `templates/` folder.
+5. Inspect the diff before accepting the drafts: confirm what changed, which files changed, whether the drafts followed the prompt, whether any facts were invented, and whether qualified human review remains required.
+6. Compare the drafts with the [expected output guide](expected-output-guide.md).
 7. Find at least one score, risk, or recommendation that needs a human question.
-8. Revise the draft and apply the participant human-review checklist.
+8. Revise the draft and apply the [participant human-review checklist](../../participant/human-review-checklist.md).
 
 ## Success Standard
 
-The draft should make the team's reasoning and missing information easier to review. It should not make the final pursuit decision.
+The drafts should make the team's reasoning and missing information easier to review. They should not make the final pursuit decision.
 
 This training does not provide legal, procurement, compliance, pricing, cybersecurity, or proposal advice. The output is a draft internal workflow aid requiring qualified human review.

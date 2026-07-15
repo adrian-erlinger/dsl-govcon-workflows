@@ -1,6 +1,10 @@
 # Opportunity Triage Prompt
 
+Copy the text between `BEGIN PROMPT` and `END PROMPT` into Codex.
+
 ```text
+BEGIN PROMPT
+
 Create a draft opportunity intake worksheet and bid/no-bid briefing aid using only:
 - workflows/opportunity-triage/data/synthetic-opportunity-summary.md
 - workflows/opportunity-triage/data/synthetic-opportunity-input.csv
@@ -47,4 +51,6 @@ Rules:
 6. Do not provide legal, procurement, compliance, pricing, cybersecurity, or proposal advice.
 
 Before editing, summarize the approved inputs and planned files. Then create the drafts.
+
+END PROMPT
 ```
