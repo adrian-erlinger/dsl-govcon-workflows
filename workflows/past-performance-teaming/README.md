@@ -26,9 +26,9 @@ This workflow does not determine qualification, eligibility, acceptability, or p
 - [Staff Capabilities](data/synthetic-staff-capabilities.csv): fictional staff experience, availability status, and qualification limits.
 - [Partner Profiles](data/synthetic-partner-profiles.csv): fictional potential-partner capabilities, evidence, interest, and limitations.
 
-## Participant Path
+## Try This Workflow
 
-1. Open [Participant Instructions](participant-instructions.md).
+1. Open [Instructions](instructions.md).
 2. Inspect the four synthetic CSV files described above.
 3. Review the [Evidence-Fit Brief Template](templates/evidence-fit-brief.md) and [Teaming Gap Analysis Template](templates/teaming-gap-analysis.md).
 4. Use [prompt.md](prompt.md). It already tells Codex which draft files to create.

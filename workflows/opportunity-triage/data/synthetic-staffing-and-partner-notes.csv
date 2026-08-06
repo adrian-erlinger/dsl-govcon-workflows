@@ -1,0 +1,7 @@
+item,provided_evidence,status,triage_implication,suggested_reviewer_role
+internal_session_leads,"One primary session lead and one backup session lead are identified for the estimated period",partial,"May be enough for sequential remote sessions but not enough for simultaneous workshop delivery",capture lead
+workflow_analysts,"Two workflow analysts are available for discovery and documentation work",known,"Supports the documentation portion of the opportunity",technical SME
+accessibility_review,"No named accessibility reviewer or acceptance process is identified",unknown,"Accessibility-related work should remain an open question",contracts reviewer
+training_partner,"Fictional Partner Beta has relevant training capacity but has not committed to the pursuit",partial,"Partner readiness should not be scored as confirmed",BD lead
+pricing_support,"No pricing lead has reviewed assumptions because no ceiling value or pricing structure is provided",unknown,"Pricing approach should remain unresolved",pricing lead
+executive_capacity,"Executive reviewer can support one gate review before the synthetic response date",known,"A review checkpoint is possible if the team chooses to continue discovery",executive reviewer

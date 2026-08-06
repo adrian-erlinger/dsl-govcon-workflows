@@ -21,9 +21,9 @@ The workflow uses general proposal-management discipline: clear ownership, sourc
 
 The output may omit or misinterpret requirements. It is a draft internal workflow aid requiring qualified human review.
 
-## Participant Path
+## Try This Workflow
 
-1. Open [Participant Instructions](participant-instructions.md).
+1. Open [Instructions](instructions.md).
 2. Read the [Synthetic RFP Excerpt](data/synthetic-rfp-excerpt.md), [Deliverables](data/synthetic-deliverables.csv), and [Team Roles](data/synthetic-team-roles.csv).
 3. Review the example format in the [Compliance Matrix Template](templates/compliance-matrix.csv) and [Responsibility Tracker Template](templates/responsibility-tracker.csv).
 4. Use [prompt.md](prompt.md). It already tells Codex which draft files to create.

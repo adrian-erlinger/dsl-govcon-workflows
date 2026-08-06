@@ -1,10 +1,16 @@
 # Reusable Workflow Builder Prompt
 
+This is a template for later, after you have tried the Opportunity Triage workflow. It is not the first prompt to use.
+
+If you are new, start with `START-HERE.md` and use the prompt inside `workflows/opportunity-triage/prompt.md`. You do not need to invent your own workflow idea to begin.
+
+When you are ready to adapt the pattern, replace the bracketed text below with your own approved synthetic files and desired draft output.
+
 ```text
 Create a draft internal workflow aid using only the approved synthetic input files I name below.
 
 Purpose:
-[Describe the workflow decision or coordination need.]
+[In plain language, describe what the draft should help organize or review. Example: "Help review whether a synthetic opportunity is worth further capture discussion."]
 
 Approved inputs:
 - [Input file]
@@ -28,4 +34,3 @@ Rules:
 
 Before editing, summarize the inputs and planned output. Then make the requested file changes.
 ```
-

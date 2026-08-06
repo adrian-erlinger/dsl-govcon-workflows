@@ -22,9 +22,11 @@ Synthetic Organization Alpha has experience documenting internal workflows and f
 
 The organization has not performed work for the fictional customer. It has one related synthetic project with a commercial organization, but the project record does not state whether outcome metrics were independently verified.
 
+The expanded synthetic case packet includes a mock capability statement, past-performance snapshots, and staffing/partner notes. These files provide more source material for discussion, but they do not remove the need for human review.
+
 ## Known Concerns
 
-- The estimated effort may require more simultaneous facilitators than currently available.
+- The estimated effort may require more simultaneous session leads than currently available.
 - The notice mentions an accessibility review but provides no standard or acceptance process.
 - No ceiling value or detailed evaluation method is provided.
 - A potential training-delivery partner has been identified but has made no commitment.
@@ -34,6 +36,7 @@ The organization has not performed work for the fictional customer. It has one r
 - The required workflow-documentation tasks resemble the organization's synthetic prior work.
 - Remote delivery aligns with the organization's current operating model.
 - The response window allows time for initial discovery.
+- The synthetic capability statement describes related job aid, workshop, and workflow-documentation capabilities.
 
 ## Unknowns
 
@@ -44,4 +47,3 @@ The organization has not performed work for the fictional customer. It has one r
 - accessibility acceptance criteria;
 - incumbent or predecessor information;
 - whether partner experience may be used.
-

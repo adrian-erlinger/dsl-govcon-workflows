@@ -1,4 +1,4 @@
-# Participant Instructions: Past Performance and Teaming
+# Instructions: Past Performance and Teaming
 
 ## Goal
 
@@ -36,7 +36,7 @@ Use only these four ratings. A strong rating does not establish qualification or
 5. Inspect the diff and trace every match to a CSV record ID.
 6. Compare both drafts with `expected-output-guide.md`.
 7. Find at least one match that Codex may have overstated.
-8. Revise the draft and apply the participant human-review checklist.
+8. Revise the draft and apply the human-review checklist.
 
 Multiple records may be cited together when their contributions remain separate. For example, `PP-02` supports remote workshop delivery and `ST-02` supports remote facilitation experience, but together they still do not prove delivery of hybrid workshops for 100 learners.
 

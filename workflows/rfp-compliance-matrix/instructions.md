@@ -1,4 +1,4 @@
-# Participant Instructions: RFP Compliance Matrix
+# Instructions: RFP Compliance Matrix
 
 ## Goal
 
@@ -32,7 +32,7 @@ A **proposed owner** coordinates the response item. A **consulted role** reviews
 5. Inspect each proposed row and source reference.
 6. Compare both drafts with `expected-output-guide.md`.
 7. Find one combined requirement that should be split or one owner that needs confirmation. For example, “Volume 1 shall describe the discovery approach and provide a workshop plan” should become two rows because each response item can be checked separately.
-8. Revise the files and apply the participant human-review checklist.
+8. Revise the files and apply the human-review checklist.
 
 Use only dates found in the synthetic RFP. If an internal draft date is needed but not supplied, leave `due_date` blank and set `due_date_status` to `Needs human planning`.
 

@@ -14,4 +14,3 @@ Use this checklist for every draft workflow output.
 - [ ] The draft does not provide legal, procurement, compliance, pricing, cybersecurity, or proposal advice.
 - [ ] Questions are routed to an appropriate qualified reviewer.
 - [ ] A qualified person has approved, revised, or rejected the draft before live use.
-

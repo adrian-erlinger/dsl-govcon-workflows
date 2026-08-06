@@ -11,4 +11,3 @@ Complete this after your final exercise.
 7. What is one small, safe adaptation you could test using synthetic data?
 
 Do not copy workshop outputs into live procurement work without your organization's approval and qualified human review.
-

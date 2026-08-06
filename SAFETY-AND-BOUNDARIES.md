@@ -8,16 +8,15 @@ It teaches participants how to use Codex to create draft internal workflow aids,
 
 ## Permitted Data
 
-Use only:
-
-- the synthetic files included in this repository; or
-- public information that a facilitator has explicitly approved for a later exercise.
+For this training repository, use only the synthetic files included here.
 
 All included organizations, people, opportunities, solicitations, projects, certifications, dates, and performance records are fictional.
 
-## Do Not Add
+The purpose is to learn a reviewable workflow pattern that can later be applied to real organizational work. That later use should happen only in an approved workspace with appropriate data-privacy, security, confidentiality, access-control, and human-review controls.
 
-Do not enter, upload, paste, or commit:
+## Do Not Add To This Repository
+
+Do not enter, upload, paste, or commit the following into this training repository:
 
 - real company or client data;
 - real proposal or procurement data;
@@ -46,4 +45,3 @@ A qualified reviewer must:
 4. correct unsupported scores, matches, risks, and recommendations;
 5. determine whether specialist review is required;
 6. approve, revise, or reject the draft before live use.
-

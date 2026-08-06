@@ -2,6 +2,8 @@
 
 Codex can read files, propose changes, and show you what changed. In this training, you will use it as a drafting partner—not as an authority.
 
+If you are opening Codex for the first time, start with [Codex Setup and Navigation](codex-setup-and-navigation.md).
+
 ## The Five Parts of a Useful Prompt
 
 1. **Purpose:** Say what internal workflow aid you want.
@@ -22,4 +24,3 @@ Codex can read files, propose changes, and show you what changed. In this traini
 ## If Codex Is Uncertain
 
 Codex should label the item as unknown, explain why, and add a question for the appropriate reviewer. It should not silently fill gaps.
-

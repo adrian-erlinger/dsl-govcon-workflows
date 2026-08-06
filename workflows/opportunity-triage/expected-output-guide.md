@@ -3,6 +3,8 @@
 A useful draft should:
 
 - trace every score to the synthetic summary or CSV;
+- use the synthetic capability statement as evidence only for stated capabilities, not as proof of eligibility or customer relationship;
+- use past-performance and staffing CSV rows with their caveats;
 - use `unknown` when evidence is absent;
 - show separate scores for customer, capability, past performance, delivery, and partner fit;
 - use 0 for weak or no evidence, 1 for partial or uncertain evidence, and 2 for strong evidence from the supplied synthetic inputs;
@@ -23,6 +25,7 @@ Ask:
 2. Did it overstate the relevance of the synthetic commercial project?
 3. Did it treat an uncommitted partner as available?
 4. Did it invent customer or incumbent knowledge?
-5. What evidence could change the preliminary recommendation?
+5. Did it treat the capability statement as stronger evidence than the caveats support?
+6. What evidence could change the preliminary recommendation?
 
 There is no official score or final answer. This is a draft internal workflow aid requiring qualified human review. It does not provide legal, procurement, compliance, pricing, cybersecurity, or proposal advice.

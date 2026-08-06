@@ -1,5 +1,7 @@
 # Reusable Workflow Adapter Prompt
 
+This is a reusable template for later. First-time users should complete the Opportunity Triage workflow before adapting a workflow.
+
 ```text
 Adapt the selected training workflow for the audience and purpose described below while continuing to use only synthetic data.
 
@@ -25,4 +27,3 @@ Do not add an application, dependency, live integration, automated submission, o
 
 First describe the proposed adaptation and its review risks. Then update only the approved workflow files.
 ```
-

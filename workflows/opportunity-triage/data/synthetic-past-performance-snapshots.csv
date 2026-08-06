@@ -1,0 +1,5 @@
+project_id,project_name,fictional_customer,sector,relevance_summary,evidence_strength,caveat
+PP-001,Workflow Renewal Pilot,Regional Services Collaborative,nonprofit,"Documented intake workflows, facilitated remote review sessions, and delivered reusable job aids for three internal teams",strong,"No evidence this customer resembles the fictional agency buyer"
+PP-002,Operations Desk Job Aid Refresh,Harborview Admin Group,commercial,"Converted informal desk procedures into plain-language checklists and supervisor review questions",partial,"Smaller scope than the synthetic opportunity and no formal training rollout"
+PP-003,Remote Enablement Sprint,Civic Support Studio,commercial,"Facilitated short remote enablement sessions and gathered participant feedback across 60 fictional learners",partial,"Outcome metrics are self-reported and not independently verified"
+PP-004,Accessibility Review Support,Northern Community Lab,nonprofit,"Helped collect accessibility comments on draft job aids",weak,"No evidence of ownership for accessibility standards, acceptance criteria, or remediation signoff"

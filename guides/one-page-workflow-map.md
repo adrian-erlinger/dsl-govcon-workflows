@@ -1,8 +1,6 @@
 # The Codex Workflow
 
-This workshop is not about asking AI for answers.
-
-It is about learning how to work with Codex on reviewable files.
+This workshop is not about learning how to work with Codex on reviewable files.
 
 Think of this repository as a workbench. The workbench contains source materials, prompts, templates, draft outputs, review notes, and revisions. Codex can work inside that workbench, but you remain responsible for deciding what is useful, accurate, and ready to keep.
 

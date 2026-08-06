@@ -6,8 +6,12 @@ Copy the text between `BEGIN PROMPT` and `END PROMPT` into Codex.
 BEGIN PROMPT
 
 Create a draft opportunity intake worksheet and bid/no-bid briefing aid using only:
+- workflows/opportunity-triage/data/source-packet-index.md
 - workflows/opportunity-triage/data/synthetic-opportunity-summary.md
 - workflows/opportunity-triage/data/synthetic-opportunity-input.csv
+- workflows/opportunity-triage/data/synthetic-capability-statement.md
+- workflows/opportunity-triage/data/synthetic-past-performance-snapshots.csv
+- workflows/opportunity-triage/data/synthetic-staffing-and-partner-notes.csv
 - workflows/opportunity-triage/templates/opportunity-intake.md
 - workflows/opportunity-triage/templates/bid-no-bid-brief.md
 
@@ -23,6 +27,7 @@ Scoring:
   - 2 = strong evidence from the supplied synthetic inputs.
 - Define customer fit as the strength of supplied evidence that Synthetic Organization Alpha has documented knowledge of or a relationship with the fictional customer. Use only the customer relationship and related information in the supplied synthetic files; do not infer familiarity from general capability fit.
 - Explain each score using a named source field or summary section.
+- When using the capability statement or CSV support files, name the file and relevant row, section, or caveat.
 - Report the total as a discussion aid, not a mathematical decision rule.
 - If the inputs do not provide enough information to assign a score, do not invent it. Mark the factor unknown, do not treat it as a negative fact, and list the information needed.
 
@@ -49,8 +54,9 @@ Rules:
 4. State that the recommendation is preliminary.
 5. State that both files are draft internal workflow aids requiring qualified human review.
 6. Do not provide legal, procurement, compliance, pricing, cybersecurity, or proposal advice.
+7. Do not turn the files into software, automation, integration logic, or a production system.
 
-Before editing, summarize the approved inputs and planned files. Then create the drafts.
+Before editing, summarize the approved inputs, the planned files, and the main uncertainties you expect to preserve. Then create the drafts.
 
 END PROMPT
 ```

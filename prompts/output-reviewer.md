@@ -1,5 +1,7 @@
 # Reusable Output Reviewer Prompt
 
+This is a reusable template for later. First-time users should practice review inside the Opportunity Triage workflow before adapting this prompt.
+
 ```text
 Review the named draft output against only the approved synthetic source files.
 
@@ -28,4 +30,3 @@ Return:
 
 Do not add outside information or provide legal, procurement, compliance, pricing, cybersecurity, or proposal advice.
 ```
-

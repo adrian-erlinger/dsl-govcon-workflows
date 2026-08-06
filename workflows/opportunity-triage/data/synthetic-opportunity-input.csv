@@ -5,10 +5,11 @@ training_classification_code,000000,known,Synthetic placeholder; not for live us
 competition_approach,Synthetic small-business reserve,known,Synthetic summary
 response_due,2030-09-18 15:00 synthetic local time,known,Synthetic summary
 customer_relationship,None documented,known,Fictional bidder profile
-capability_fit,Workflow documentation and remote facilitation overlap,partial,Fictional bidder profile
-past_performance_fit,One related commercial project with unverified outcome metrics,partial,Fictional bidder profile
-delivery_readiness,May need additional simultaneous facilitators,partial,Known concerns
-partner_readiness,Potential partner identified but not committed,partial,Known concerns
+capability_fit,Workflow documentation remote facilitation and job aid development overlap,partial,Synthetic capability statement
+past_performance_fit,Several related synthetic projects exist but none document work for the fictional customer,partial,Synthetic past performance snapshots
+delivery_readiness,Documentation staffing appears stronger than simultaneous facilitation capacity,partial,Synthetic staffing and partner notes
+partner_readiness,Potential training partner has relevant capacity but has not committed,partial,Synthetic staffing and partner notes
+accessibility_review_capacity,No named accessibility reviewer or acceptance process is identified,unknown,Synthetic staffing and partner notes
 incumbent_information,,unknown,Unknowns
 pricing_structure,,unknown,Unknowns
 evaluation_criteria,,unknown,Unknowns
