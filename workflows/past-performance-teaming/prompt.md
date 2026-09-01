@@ -2,10 +2,15 @@
 
 ```text
 Use only these synthetic training files:
+- workflows/past-performance-teaming/data/source-packet-index.md
+- workflows/past-performance-teaming/data/synthetic-opportunity-context.md
 - workflows/past-performance-teaming/data/synthetic-target-requirements.csv
+- workflows/past-performance-teaming/data/synthetic-evidence-inventory.csv
 - workflows/past-performance-teaming/data/synthetic-past-performance.csv
 - workflows/past-performance-teaming/data/synthetic-staff-capabilities.csv
+- workflows/past-performance-teaming/data/synthetic-workstream-capacity.csv
 - workflows/past-performance-teaming/data/synthetic-partner-profiles.csv
+- workflows/past-performance-teaming/data/synthetic-diligence-questions.csv
 - workflows/past-performance-teaming/templates/evidence-fit-brief.md
 - workflows/past-performance-teaming/templates/teaming-gap-analysis.md
 
@@ -33,6 +38,7 @@ For each target requirement:
 3. Cite the exact synthetic record ID.
 4. Explain both the match and its limitation.
 5. Do not combine separate records into a stronger claim than they support.
+6. Use diligence questions when evidence, availability, qualifications, buyer acceptance, or partner commitment is unresolved.
 
 Multiple records may be cited together only when their contributions remain separate. For example, `PP-02` supports remote workshop delivery and `ST-02` supports remote facilitation experience, but together they do not prove hybrid delivery for 100 learners.
 
@@ -53,6 +59,8 @@ Rules:
 - Use no outside information.
 - Do not invent past performance, experience, outcomes, contract values, certifications, staff qualifications, staff availability, customer facts, customer approval, partner experience, or partner commitments.
 - Distinguish evidence from inference.
+- Do not turn gaps into claims.
+- Preserve evidence limits, missing acceptance records, capacity constraints, and exploratory partner status.
 - Do not determine qualification, eligibility, acceptability, or final partner selection.
 - State that both outputs, including any teaming recommendation, are draft internal planning aids requiring qualified human review.
 - Do not provide legal, procurement, compliance, pricing, cybersecurity, or proposal advice.

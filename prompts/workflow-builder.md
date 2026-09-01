@@ -4,7 +4,7 @@ This is a template for later, after you have tried the Opportunity Triage workfl
 
 If you are new, start with `START-HERE.md` and use the prompt inside `workflows/opportunity-triage/prompt.md`. You do not need to invent your own workflow idea to begin.
 
-When you are ready to adapt the pattern, replace the bracketed text below with your own approved synthetic files and desired draft output.
+When you are ready to adapt the pattern, replace the bracketed text below with your own approved synthetic files and desired draft output. If you are still deciding what the workflow should be, use `workflow-coach.md` first.
 
 ```text
 Create a draft internal workflow aid using only the approved synthetic input files I name below.

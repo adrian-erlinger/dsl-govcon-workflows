@@ -19,16 +19,18 @@ Approved reviewer roles are: **BD lead, capture lead, proposal lead, contracts r
 ## Steps
 
 1. Read the [source packet index](data/source-packet-index.md) to see the approved files.
-2. Read the [synthetic opportunity summary](data/synthetic-opportunity-summary.md).
+2. Read the [synthetic opportunity notice](data/synthetic-opportunity-notice.md) and [synthetic opportunity summary](data/synthetic-opportunity-summary.md).
 3. Open the [synthetic opportunity input CSV](data/synthetic-opportunity-input.csv) and use the `status` column to identify which fields are known, partial, or unknown.
-4. Read the [synthetic capability statement](data/synthetic-capability-statement.md). Notice what it does and does not prove.
-5. Review the [past-performance snapshots](data/synthetic-past-performance-snapshots.csv) and [staffing and partner notes](data/synthetic-staffing-and-partner-notes.csv). Look for caveats, partial evidence, and missing information.
-6. Review the output structures in the [opportunity intake template](templates/opportunity-intake.md) and [bid/no-bid brief template](templates/bid-no-bid-brief.md).
-7. Open the [opportunity triage prompt](prompt.md), copy the full text inside the code block, and paste it into Codex. The prompt already tells Codex to create both draft files outside the `templates/` folder.
-8. Inspect the diff before accepting the drafts: confirm what changed, which files changed, whether the drafts followed the prompt, whether any facts were invented, and whether qualified human review remains required.
-9. Compare the drafts with the [expected output guide](expected-output-guide.md).
-10. Find at least one score, risk, or recommendation that needs a human question.
-11. Revise the draft and apply the [human-review checklist](../../guides/human-review-checklist.md).
+4. Read the [synthetic review criteria](data/synthetic-review-criteria.md). Notice which review factors are present and which evaluation details are missing.
+5. Read the [synthetic customer context](data/synthetic-customer-context.md). Notice the difference between general customer context and a documented customer relationship. Preserve the conflicting on-site-session note as an unresolved source conflict.
+6. Read the [synthetic capability statement](data/synthetic-capability-statement.md). Notice what it does and does not prove.
+7. Review the [past-performance snapshots](data/synthetic-past-performance-snapshots.csv), [delivery-capacity data](data/synthetic-delivery-capacity.csv), and [staffing and partner notes](data/synthetic-staffing-and-partner-notes.csv). Look for caveats, partial evidence, conflicts, and missing information.
+8. Review the output structures in the [opportunity intake template](templates/opportunity-intake.md) and [bid/no-bid brief template](templates/bid-no-bid-brief.md).
+9. Open the [opportunity triage prompt](prompt.md), copy the full text inside the code block, and paste it into Codex. The prompt already tells Codex to create both draft files outside the `templates/` folder.
+10. Inspect the diff before accepting the drafts: confirm what changed, which files changed, whether the drafts followed the prompt, whether any facts were invented, and whether qualified human review remains required.
+11. Compare the drafts with the [expected output guide](expected-output-guide.md).
+12. Find at least one score, risk, source conflict, or recommendation that needs a human question.
+13. Revise the draft and apply the [human-review checklist](../../guides/human-review-checklist.md).
 
 ## Success Standard
 

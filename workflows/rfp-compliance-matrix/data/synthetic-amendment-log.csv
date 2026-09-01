@@ -1,0 +1,6 @@
+amendment_id,release_date,source_area,change_summary,status,triage_implication,suggested_reviewer_role
+AMD-001,2031-03-29,Synthetic Section L.2,"Clarifies that tables may use 9-point text but must remain readable in the submitted file",known,"Formatting check should include table readability",proposal_operations
+AMD-002,2031-04-01,Synthetic Section L.4,"Changes the transition schedule requirement from first 30 synthetic calendar days to first 45 synthetic calendar days",known,"Matrix should reflect the amended 45-day transition schedule and note the original excerpt changed",proposal_lead
+AMD-003,2031-04-03,Synthetic Attachment B,"States that resumes remain limited to two pages each but does not clarify whether Attachment B is uploaded separately",partial,"Attachment B packaging remains unresolved",proposal_operations
+AMD-004,2031-04-05,Synthetic Section L.5,"Adds that participant information handling must be described without including live personal data in the response",known,"Security reviewer should review the description but no live personal data should be included",security_reviewer
+AMD-005,2031-04-06,Synthetic Section M.1,"Adds accessibility of job aids as a review consideration but provides no standard or scoring method",partial,"Accessibility should be tracked as a review issue without inventing a standard",technical_sme

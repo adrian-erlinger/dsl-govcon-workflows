@@ -6,7 +6,9 @@ Proposal managers, operations leads, capture teams, and contributors who coordin
 
 ## Practical Need
 
-Solicitation instructions can be spread across sections, attachments, tables, and deadlines. This workflow drafts a requirement matrix and responsibility tracker from a short synthetic excerpt.
+Solicitation instructions can be spread across sections, attachments, tables, Q&A logs, amendments, and deadlines. Compliance work often involves high-friction, detail-oriented artifacts. This workflow drafts a requirement matrix and responsibility tracker from a synthetic source packet.
+
+This is an additional example workflow. Complete the canonical Opportunity Triage workflow first, then use this workflow to practice source extraction and requirement tracking.
 
 ## Draft Outputs
 
@@ -17,14 +19,14 @@ Solicitation instructions can be spread across sections, attachments, tables, an
 - compliance risk and review status;
 - routing notes for specialist review.
 
-The workflow uses general proposal-management discipline: clear ownership, source traceability, review gates, responsiveness, and human confirmation. It does not reproduce proprietary methods or imply affiliation with any proposal methodology provider.
+The workflow uses general proposal-management discipline: clear ownership, source traceability, review gates, responsiveness, and human confirmation. Codex can help organize stated requirements and handoffs, but qualified reviewers still determine meaning, completeness, and compliance. It does not reproduce proprietary methods or imply affiliation with any proposal methodology provider.
 
-The output may omit or misinterpret requirements. It is a draft internal workflow aid requiring qualified human review.
+The output may omit or misinterpret requirements. It is not legal interpretation, automated compliance certification, or a final proposal review. It is a draft internal workflow aid requiring qualified human review.
 
 ## Try This Workflow
 
 1. Open [Instructions](instructions.md).
-2. Read the [Synthetic RFP Excerpt](data/synthetic-rfp-excerpt.md), [Deliverables](data/synthetic-deliverables.csv), and [Team Roles](data/synthetic-team-roles.csv).
+2. Start with the [Source Packet Index](data/source-packet-index.md), then read the approved synthetic files in `data/`.
 3. Review the example format in the [Compliance Matrix Template](templates/compliance-matrix.csv) and [Responsibility Tracker Template](templates/responsibility-tracker.csv).
 4. Use [prompt.md](prompt.md). It already tells Codex which draft files to create.
 5. After generation, compare both drafts with the [Expected Output Guide](expected-output-guide.md).

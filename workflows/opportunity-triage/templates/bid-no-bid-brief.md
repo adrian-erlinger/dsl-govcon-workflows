@@ -10,7 +10,7 @@
 
 ## Red Flags
 
-## Missing Information
+## Missing or Conflicting Information
 
 ## Preliminary Recommendation
 
@@ -30,4 +30,3 @@ Explain the conditions and uncertainty behind the preliminary recommendation.
 ## Required Boundary
 
 This draft does not provide legal, procurement, compliance, pricing, cybersecurity, or proposal advice.
-

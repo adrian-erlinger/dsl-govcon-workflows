@@ -4,11 +4,17 @@ customer,Fictional Department of Community Services,known,Synthetic summary
 training_classification_code,000000,known,Synthetic placeholder; not for live use
 competition_approach,Synthetic small-business reserve,known,Synthetic summary
 response_due,2030-09-18 15:00 synthetic local time,known,Synthetic summary
+estimated_period_of_performance,Two years,known,Synthetic opportunity notice
+performance_model,Primarily remote with four fictional on-site sessions,partial,Synthetic opportunity notice
 customer_relationship,None documented,known,Fictional bidder profile
+customer_context,General customer priorities are described but no documented relationship is provided,partial,Synthetic customer context
 capability_fit,Workflow documentation remote facilitation and job aid development overlap,partial,Synthetic capability statement
 past_performance_fit,Several related synthetic projects exist but none document work for the fictional customer,partial,Synthetic past performance snapshots
 delivery_readiness,Documentation staffing appears stronger than simultaneous facilitation capacity,partial,Synthetic staffing and partner notes
+delivery_capacity,Workflow analysis capacity appears stronger than on-site facilitation and accessibility review capacity,partial,Synthetic delivery capacity
 partner_readiness,Potential training partner has relevant capacity but has not committed,partial,Synthetic staffing and partner notes
+onsite_session_count_conflict,Opportunity summary says four on-site sessions while customer-context note mentions two shorter on-site planning sessions,partial,Synthetic customer context conflicts with synthetic summary
+review_criteria,Review factors are named but weights point values and price evaluation method are missing,partial,Synthetic review criteria
 accessibility_review_capacity,No named accessibility reviewer or acceptance process is identified,unknown,Synthetic staffing and partner notes
 incumbent_information,,unknown,Unknowns
 pricing_structure,,unknown,Unknowns

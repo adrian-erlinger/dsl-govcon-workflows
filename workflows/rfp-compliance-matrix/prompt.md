@@ -2,7 +2,12 @@
 
 ```text
 Use only these synthetic training files:
+- workflows/rfp-compliance-matrix/data/source-packet-index.md
 - workflows/rfp-compliance-matrix/data/synthetic-rfp-excerpt.md
+- workflows/rfp-compliance-matrix/data/synthetic-submission-instructions.md
+- workflows/rfp-compliance-matrix/data/synthetic-evaluation-factors.md
+- workflows/rfp-compliance-matrix/data/synthetic-amendment-log.csv
+- workflows/rfp-compliance-matrix/data/synthetic-qa-log.csv
 - workflows/rfp-compliance-matrix/data/synthetic-deliverables.csv
 - workflows/rfp-compliance-matrix/data/synthetic-team-roles.csv
 - workflows/rfp-compliance-matrix/templates/compliance-matrix.csv
@@ -18,9 +23,10 @@ For the compliance matrix:
 1. Create a separate row for each distinct instruction, required response, attachment, limit, deadline, or review need.
 2. Quote no more source language than needed to identify the requirement.
 3. Cite the exact synthetic section or attachment.
-4. Distinguish explicit source requirements from analysis.
-5. Use `compliance_risk` for source-based omissions, ambiguities, mismatches, or uncertainties that need human attention. Do not state a legal or compliance conclusion.
-6. Do not claim that the matrix identifies every requirement.
+4. Reflect amendment impacts when the source packet shows that a requirement changed.
+5. Distinguish explicit source requirements from analysis.
+6. Use `compliance_risk` for source-based omissions, ambiguities, mismatches, or uncertainties that need human attention. Do not state a legal or compliance conclusion.
+7. Do not claim that the matrix identifies every requirement.
 
 For the responsibility tracker:
 1. Use `proposed_owner_role` for the role responsible for coordinating the response item. Use `consulted_role` for a specialist who should review or provide input.
@@ -38,8 +44,9 @@ For the responsibility tracker:
 Rules:
 - Use no outside information.
 - Do not interpret laws, clauses, security obligations, or pricing requirements.
+- Do not provide legal interpretation, automated compliance certification, or a final proposal review.
 - Do not invent requirements, dates, owners, evidence, or status.
-- Preserve unknown and conflicting information.
+- Preserve unknown, amended, unanswered, partial, and conflicting information.
 - Treat both files as draft internal workflow aids requiring qualified human review.
 - Do not repeat the general safety boundary mechanically in every CSV row. Use `human_review_note` and `routing_note` only for item-specific review needs.
 - State that this work does not provide legal, procurement, compliance, pricing, cybersecurity, or proposal advice.

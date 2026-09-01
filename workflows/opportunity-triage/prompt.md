@@ -7,10 +7,14 @@ BEGIN PROMPT
 
 Create a draft opportunity intake worksheet and bid/no-bid briefing aid using only:
 - workflows/opportunity-triage/data/source-packet-index.md
+- workflows/opportunity-triage/data/synthetic-opportunity-notice.md
 - workflows/opportunity-triage/data/synthetic-opportunity-summary.md
 - workflows/opportunity-triage/data/synthetic-opportunity-input.csv
+- workflows/opportunity-triage/data/synthetic-review-criteria.md
+- workflows/opportunity-triage/data/synthetic-customer-context.md
 - workflows/opportunity-triage/data/synthetic-capability-statement.md
 - workflows/opportunity-triage/data/synthetic-past-performance-snapshots.csv
+- workflows/opportunity-triage/data/synthetic-delivery-capacity.csv
 - workflows/opportunity-triage/data/synthetic-staffing-and-partner-notes.csv
 - workflows/opportunity-triage/templates/opportunity-intake.md
 - workflows/opportunity-triage/templates/bid-no-bid-brief.md
@@ -26,9 +30,9 @@ Scoring:
   - 1 = partial or uncertain evidence in the supplied synthetic inputs.
   - 2 = strong evidence from the supplied synthetic inputs.
 - Define customer fit as the strength of supplied evidence that Synthetic Organization Alpha has documented knowledge of or a relationship with the fictional customer. Use only the customer relationship and related information in the supplied synthetic files; do not infer familiarity from general capability fit.
-- Explain each score using a named source field or summary section.
-- When using the capability statement or CSV support files, name the file and relevant row, section, or caveat.
-- Report the total as a discussion aid, not a mathematical decision rule.
+- Explain each score using a named source field, row, or section.
+- When using the capability statement, review criteria, notice, or CSV support files, name the file and relevant row, section, or caveat.
+- Report the total as a discussion aid, not a mathematical decision rule or final pursuit decision.
 - If the inputs do not provide enough information to assign a score, do not invent it. Mark the factor unknown, do not treat it as a negative fact, and list the information needed.
 
 Definitions:
@@ -51,10 +55,12 @@ Rules:
 1. Use no outside information.
 2. Do not invent customer knowledge, incumbent facts, qualifications, evidence, dates, or partner commitments.
 3. Separate source facts from analysis.
-4. State that the recommendation is preliminary.
-5. State that both files are draft internal workflow aids requiring qualified human review.
-6. Do not provide legal, procurement, compliance, pricing, cybersecurity, or proposal advice.
-7. Do not turn the files into software, automation, integration logic, or a production system.
+4. Preserve the conflict between the four-session opportunity summary and the two-session customer-context note as unresolved unless a supplied source resolves it.
+5. Treat incomplete review criteria and missing pricing information as reviewer questions, not as final evaluation conclusions.
+6. State that the recommendation is preliminary and that the actual bid/no-bid judgment belongs to the responsible team.
+7. State that both files are draft internal workflow aids requiring qualified human review.
+8. Do not provide legal, procurement, compliance, pricing, cybersecurity, or proposal advice.
+9. Do not turn the files into software, automation, integration logic, or a production system.
 
 Before editing, summarize the approved inputs, the planned files, and the main uncertainties you expect to preserve. Then create the drafts.
 

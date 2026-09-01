@@ -2,7 +2,7 @@
 
 ## Goal
 
-Draft a compliance matrix and responsibility tracker from a synthetic RFP excerpt.
+Draft a compliance matrix and responsibility tracker from a synthetic RFP source packet.
 
 ## Beginner Column Guide
 
@@ -25,14 +25,15 @@ A **proposed owner** coordinates the response item. A **consulted role** reviews
 
 ## Steps
 
-1. Read `data/synthetic-rfp-excerpt.md`.
-2. Inspect `data/synthetic-deliverables.csv` and `data/synthetic-team-roles.csv`.
-3. Review the output columns and clearly labeled synthetic example rows in `templates/`. The examples show format only; they are not additional source requirements.
-4. Copy the prompt from `prompt.md` into Codex. The prompt already tells Codex to create both draft files.
-5. Inspect each proposed row and source reference.
-6. Compare both drafts with `expected-output-guide.md`.
-7. Find one combined requirement that should be split or one owner that needs confirmation. For example, “Volume 1 shall describe the discovery approach and provide a workshop plan” should become two rows because each response item can be checked separately.
-8. Revise the files and apply the human-review checklist.
+1. Read `data/source-packet-index.md` to see the approved synthetic files.
+2. Read `data/synthetic-rfp-excerpt.md`, `data/synthetic-submission-instructions.md`, and `data/synthetic-evaluation-factors.md`.
+3. Inspect `data/synthetic-amendment-log.csv`, `data/synthetic-qa-log.csv`, `data/synthetic-deliverables.csv`, and `data/synthetic-team-roles.csv`.
+4. Review the output columns and clearly labeled synthetic example rows in `templates/`. The examples show format only; they are not additional source requirements.
+5. Copy the prompt from `prompt.md` into Codex. The prompt already tells Codex to create both draft files.
+6. Inspect each proposed row and source reference.
+7. Compare both drafts with `expected-output-guide.md`.
+8. Find one combined requirement that should be split, one amendment impact that should be reflected, or one owner that needs confirmation. For example, “Volume 1 shall describe the discovery approach and provide a workshop plan” should become two rows because each response item can be checked separately.
+9. Revise the files and apply the human-review checklist.
 
 Use only dates found in the synthetic RFP. If an internal draft date is needed but not supplied, leave `due_date` blank and set `due_date_status` to `Needs human planning`.
 
@@ -40,6 +41,6 @@ The general safety boundary belongs in these workflow instructions and review gu
 
 ## Success Standard
 
-The draft should help qualified reviewers find, assign, and discuss requirements. It must not claim that every requirement has been identified.
+The draft should help qualified reviewers find, assign, and discuss requirements. It must not claim that every requirement has been identified, interpreted, or certified as compliant.
 
 Both output files are draft internal workflow aids requiring qualified human review. This training does not provide legal, procurement, compliance, pricing, cybersecurity, or proposal advice.

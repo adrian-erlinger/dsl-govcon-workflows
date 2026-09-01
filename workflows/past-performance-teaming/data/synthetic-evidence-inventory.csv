@@ -1,0 +1,13 @@
+evidence_id,evidence_type,related_record_id,description,evidence_status,evidence_limit,suggested_reviewer_role
+EV-001,project_summary,PP-01,"Workflow Renewal Pilot one-page project summary",available,"Summary supports workflow count but does not include buyer acceptance documentation",capture lead
+EV-002,completion_metric,PP-01,"Training record showing 80 percent reviewer completion",available,"Metric is useful but does not document independent verification",capture lead
+EV-003,attendance_log,PP-02,"Remote Enablement Sprint attendance log",available,"Confirms 68 attendees, not 100 learners and not hybrid delivery",capture lead
+EV-004,workshop_materials,PP-02,"Remote workshop agenda and facilitation guide",available,"Shows remote workshop structure but not in-person or hybrid production",technical SME
+EV-005,review_tracker,PP-03,"Three-stage document review tracker example",available,"Shows review process use but no independent quality measure",proposal lead
+EV-006,digital_guide_samples,PP-04,"Eight digital quick-reference guide samples",available,"No accessibility test result or remediation signoff",technical SME
+EV-007,staff_resume,ST-01,"Program lead synthetic resume excerpt",partial,"Documents four synthetic years, not five",capture lead
+EV-008,availability_note,ST-02,"Lead session coach availability note",partial,"Part-time availability may constrain hybrid workshop delivery",capture lead
+EV-009,partner_capability_note,PT-01,"Accessibility partner capability summary",partial,"Exploratory only; no commitment or capacity confirmation",BD lead
+EV-010,partner_training_record,PT-02,"Hybrid learning partner training record",partial,"Relevant scale evidence but no joint-delivery history with Alpha",BD lead
+EV-011,workstream_note,PT-03,"Concurrent workstream support note",partial,"No resumes or delivery outcomes provided",BD lead
+EV-012,customer_acceptance,,"Customer acceptance records for target-like hybrid delivery",missing,"No supplied evidence confirms customer acceptance for 100-person hybrid delivery",capture lead

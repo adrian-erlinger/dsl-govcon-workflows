@@ -1,0 +1,9 @@
+question_id,question,related_requirement_id,related_record_id,suggested_reviewer_role,why_it_matters
+DQ-01,"Can the program lead provide approved evidence of a fifth synthetic year of relevant experience?",TR-05,ST-01,capture lead,"Current staff record documents four synthetic years, not five."
+DQ-02,"Is there any approved record of hybrid workshop delivery for at least 100 learners?",TR-02,PP-02,capture lead,"The strongest internal workshop record is remote-only and below the target scale."
+DQ-03,"Does any supplied job-aid evidence include accessibility review ownership or remediation signoff?",TR-03,PP-04,technical SME,"General digital guide production does not prove accessibility capability."
+DQ-04,"Can internal staff support four simultaneous workstreams, or would the schedule need to be staggered?",TR-06,WC-01,capture lead,"Current internal capacity appears limited to fewer active lanes."
+DQ-05,"Has any potential partner committed named staff, availability, and relevant evidence?",TR-02,PT-02,BD lead,"Exploratory interest should not be treated as committed capacity."
+DQ-06,"Will partner evidence be acceptable for the target requirement?",TR-06,PT-03,contracts reviewer,"The packet does not state whether partner evidence may be used."
+DQ-07,"Are customer acceptance records required for past-performance examples?",TR-01,EV-001,proposal lead,"Several records contain internal outcomes but limited buyer acceptance evidence."
+DQ-08,"Which evidence gaps are material enough to affect pursuit strategy?",,,"executive reviewer","The workflow should support human decision-making, not make final teaming choices."
