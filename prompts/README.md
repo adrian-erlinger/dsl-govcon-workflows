@@ -9,3 +9,5 @@ Use these reusable prompts only after you understand the basic workflow pattern.
 - `workflow-coach.md` helps you design a new GovCon workflow before writing files.
 - `workflow-builder.md` helps create a draft workflow when you already know the purpose, inputs, and outputs.
 - `workflow-adapter.md` helps adapt an existing training workflow while preserving safety boundaries.
+
+The `skills/` folder contains Codex Skill blueprints for the three training workflows. Use those after participants understand the prompt-based workflow and are ready to discuss reusable Codex Skills.

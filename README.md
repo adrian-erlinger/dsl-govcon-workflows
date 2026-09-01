@@ -1,6 +1,6 @@
 # Build Reviewable GovCon AI Workflows With Codex
 
-This private training repository helps GovCon professionals use Codex to create structured, reviewable internal workflow assets from synthetic data. Professionals learn to build briefs, trackers, checklists, and review questions in Markdown and CSV.
+This private training repository helps GovCon professionals use Codex to create structured, reviewable internal workflow assets. It includes synthetic data so first-time users can practice immediately, and it shows how the same pattern can later be applied with approved organizational data.
 
 The repository is designed for zero setup before learning: a first-time user should be able to download or clone it, open the folder in Codex, read [START-HERE.md](START-HERE.md), inspect the supplied synthetic opportunity notice, structured data, capability statement, past-performance records, review criteria, customer context, and delivery-capacity notes, then run the Opportunity Triage learning path without creating, uploading, or modifying source data first.
 
@@ -50,11 +50,13 @@ Opportunity Triage is the polished test use case for learning how the repository
 
 When you are ready to move beyond the first exercise, read [After The Basics](guides/after-the-basics.md). It explains the two next paths: replacing synthetic data with approved real data in a governed workspace, and designing your own GovCon workflows in Codex.
 
+The repository also includes reusable Codex Skill blueprints in `skills/` for the three workflow examples. These are best discussed after participants have tried the prompt-based workflow once.
+
 ## Important Boundary
 
 This training does not provide legal, procurement, compliance, pricing, cybersecurity, or proposal advice. It teaches participants how to create draft internal workflow assets, templates, checklists, and review questions using Codex. Every output requires review by qualified personnel before use in any live procurement activity.
 
-All repository data is fictional and synthetic so you can practice safely. In this training repository, do not add real company data, proposal data, procurement data, client data, secrets, confidential information, or proprietary material. The goal is to learn a pattern that can later be applied to real workflows, but real organizational use should only be applied in an approved workspace with the approved data-privacy, security, confidentiality, and review controls.
+All included example data is fictional and synthetic so you can practice safely. Synthetic data is the starting fixture, not a limitation on the workflow. If your organization already has approved opportunity, proposal, capture, past-performance, staffing, or partner data ready for Codex, you can apply the same pattern with that data in a workspace that matches your organization's data-privacy, security, confidentiality, access-control, and review requirements. Do not use material you are not authorized to use.
 
 ## Markdown and CSV
 

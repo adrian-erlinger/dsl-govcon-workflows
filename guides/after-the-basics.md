@@ -1,6 +1,6 @@
 # After The Basics
 
-After you complete the synthetic Opportunity Triage workflow, the next goal is transfer. You should be able to recognize how the pattern applies to your real work without bringing real data into this training repository.
+After you complete the synthetic Opportunity Triage workflow, the next goal is transfer. You should be able to recognize how the pattern applies to your real work when your organization has approved source materials ready.
 
 There are two next paths:
 
@@ -20,13 +20,13 @@ Start with [Replacing Synthetic Data](replacing-synthetic-data.md). That guide m
 - approved review criteria;
 - approved delivery-capacity or staffing information.
 
-Do not put those real files in this training repository. Recreate the workflow pattern only in an approved workspace with the right data protections, access controls, confidentiality rules, and human-review process.
+You may apply the workflow to real organizational data when the data and workspace are approved for that use. The key is not whether the file is synthetic or real; the key is whether the source material is authorized, appropriate for the workspace, and subject to the right data protections, access controls, confidentiality rules, and human-review process.
 
 Before using real data, a qualified person should confirm:
 
 - which source files are approved for use;
 - who may access the workspace;
-- what information is confidential, controlled, or proprietary;
+- what information is confidential, controlled, proprietary, or otherwise sensitive;
 - what outputs may be saved, shared, or reused;
 - which roles must review the draft before anyone relies on it.
 
@@ -78,6 +78,18 @@ Use [Workflow Coach Prompt](../prompts/workflow-coach.md) when you are ready to 
 Use [Reusable Workflow Builder Prompt](../prompts/workflow-builder.md) when you already know the purpose, inputs, and output format.
 
 Use [Reusable Workflow Adapter Prompt](../prompts/workflow-adapter.md) when you want to modify one of the existing synthetic workflows while preserving the training boundaries.
+
+## Reusable Skills
+
+The `skills/` folder contains reusable Codex Skill blueprints for the three training workflows:
+
+- `skills/opportunity-triage/SKILL.md`
+- `skills/rfp-compliance-matrix/SKILL.md`
+- `skills/past-performance-teaming/SKILL.md`
+
+These files package the same workflow patterns into reusable, task-specific instructions. They are useful after participants understand the basic flow and want to see how a repeatable GovCon workflow can become a Codex Skill.
+
+First-time users should still begin with `START-HERE.md` and `FIRST-RUN-PROMPT.md`.
 
 ## The Pattern To Preserve
 

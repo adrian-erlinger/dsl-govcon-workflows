@@ -54,7 +54,7 @@ For the starting workflow:
 4. **Create the drafts:** Use the [Opportunity Triage Prompt](workflows/opportunity-triage/prompt.md).
 5. **Check the result:** Compare the drafts with the [Expected Output Guide](workflows/opportunity-triage/expected-output-guide.md).
 6. **Review and revise:** Use [Reviewing Codex Diffs](guides/reviewing-codex-diffs.md) and the [Human Review Checklist](guides/human-review-checklist.md).
-7. **Connect the pattern to your work:** Read [Replacing Synthetic Data](guides/replacing-synthetic-data.md) to see which approved organizational files could replace each synthetic training file later, outside this training repository.
+7. **Connect the pattern to your work:** Read [Replacing Synthetic Data](guides/replacing-synthetic-data.md) to see which approved organizational files could replace each synthetic training file when your organization is ready.
 8. **Plan your next workflow:** Read [After The Basics](guides/after-the-basics.md) when you are ready to replace synthetic data in a governed workspace or design your own GovCon workflow.
 
 ## Additional Example: RFP Compliance

@@ -8,22 +8,20 @@ It teaches participants how to use Codex to create draft internal workflow aids,
 
 ## Permitted Data
 
-For this training repository, use only the synthetic files included here.
+For first-time practice, use the synthetic files included here. They let participants learn the workflow before their organization has gathered or approved real source materials.
 
 All included organizations, people, opportunities, solicitations, projects, certifications, dates, and performance records are fictional.
 
-The purpose is to learn a reviewable workflow pattern that can later be applied to real organizational work. That later use should happen only in an approved workspace with appropriate data-privacy, security, confidentiality, access-control, and human-review controls.
+The purpose is to learn a reviewable workflow pattern that can also be applied to real organizational work when approved data is available. This repository should not be read as a prohibition on using real company data with the workflow. Real-data use should happen only with the organization's approved source materials, data-privacy rules, security controls, confidentiality requirements, access controls, and human-review process.
 
-## Do Not Add To This Repository
+## Data Readiness
 
-Do not enter, upload, paste, or commit the following into this training repository:
+Before using real data, confirm that the files are approved for the workflow and that the workspace is appropriate for the data sensitivity. Do not enter, upload, paste, or commit material you are not authorized to use or that is not approved for the workspace, including:
 
-- real company or client data;
-- real proposal or procurement data;
 - personally identifiable information;
 - passwords, credentials, tokens, or secrets;
-- controlled, confidential, or proprietary information;
-- nonpublic pricing, staffing, technical, security, or legal material;
+- controlled, confidential, or proprietary information that has not been approved for the workspace;
+- nonpublic pricing, staffing, technical, security, or legal material that has not been approved for the workflow;
 - copyrighted source material that you are not authorized to use.
 
 ## Do Not Rely on Codex To

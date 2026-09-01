@@ -1,13 +1,13 @@
 # Replacing Synthetic Data
 
-This guide explains how the synthetic workflow files map to real organizational materials later. Do not replace the training files with live data in this repository.
+This guide explains how the synthetic workflow files map to real organizational materials. The synthetic files are the default learning fixture; they are not a rule that prevents an organization from using approved real data when ready.
 
 The workshop sequence is:
 
 1. use the supplied synthetic case;
 2. understand the workflow pattern;
 3. recognize the equivalent approved documents inside your organization;
-4. apply the method only in an approved environment with the right data, access, confidentiality, and human-review controls.
+4. apply the method with approved organizational data in an environment with the right data, access, confidentiality, and human-review controls.
 
 For the broader bridge from synthetic practice to real workflows and custom workflow design, read [After The Basics](after-the-basics.md).
 
@@ -42,11 +42,11 @@ The packet also teaches that useful Codex workflows depend on organized context.
 - Route questions to reviewer roles, not invented people.
 - Require qualified human review before any live pursuit decision.
 
-## What Not To Bring Into This Repository
+## Data Readiness
 
-Do not add real opportunity materials, proprietary past performance, pricing, customer intelligence, personnel information, controlled data, credentials, secrets, or confidential client material to this training repository.
+Real opportunity materials, proprietary past performance, pricing, customer intelligence, personnel information, controlled data, credentials, secrets, or confidential client material should be used only when the organization has approved the data, the workspace, and the review process for that use.
 
-Once you understand the workflow, recreate the pattern in an approved workspace using your organization's approved documents and review process.
+Once you understand the workflow, replace the synthetic files with your organization's approved documents and review process when you are ready.
 
 ## RFP Compliance Matrix Substitution Map
 

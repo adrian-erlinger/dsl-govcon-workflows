@@ -19,7 +19,7 @@ The draft output should help them:
 [Describe the discussion, review, or decision the output should support.]
 
 Known source files or source types:
-[List the approved synthetic files, sample files, or source types you expect to use. Do not include confidential, proprietary, client, proposal, pricing, or controlled data in this training repository.]
+[List the approved synthetic files, sample files, or approved organizational source types you expect to use. Use real data only when your organization has approved the data, workspace, access, and review process.]
 
 Please help me define:
 1. the purpose of the workflow;
