@@ -4,7 +4,7 @@ Use this guide if this is your first time opening Codex or if you have never ope
 
 ## What Codex Is Doing Here
 
-In this repository, Codex is working with local Markdown and CSV files. You will ask Codex to inspect the synthetic source files, draft two reviewable workflow aids, and show you the proposed file changes before you decide what to keep.
+In this repository, Codex is working with local Markdown and CSV files. In the first guided exercise, you will give Codex a real public SAM.gov opportunity and use the repository's synthetic company files as practice evidence. Codex will draft two reviewable workflow aids and show you the proposed file changes before you decide what to keep.
 
 Codex is not making a final bid/no-bid decision. It is helping you draft and review files.
 
@@ -52,15 +52,17 @@ Codex may look slightly different depending on the version or surface you use, b
 - **Chat history:** where you can return to earlier Codex conversations.
 - **Settings or permissions:** where Codex may ask before reading, editing, running commands, or using external access.
 
-For this repository, focus on the chat, the files, and the review or diff view. You do not need to use integrations, plugins, external services, or production tools.
+For this repository, focus on the chat, the files, and the review or diff view. You do not need to use integrations, plugins, or production tools. If you use a SAM.gov opportunity, keep it to public opportunity information.
 
 ## Find The Important Areas
 
 - `START-HERE.md` tells you where to begin.
+- `FIRST-RUN-PROMPT.md` gives you a guided first practice run.
 - `SAFETY-AND-BOUNDARIES.md` explains what data to use and what to avoid.
 - `workflows/opportunity-triage/` contains the starting workflow.
-- `workflows/opportunity-triage/data/` contains the synthetic case packet.
+- `workflows/opportunity-triage/data/` contains the synthetic company evidence and a fully synthetic case packet for rehearsal.
 - `workflows/opportunity-triage/templates/` contains blank output structures.
+- `workflows/opportunity-triage/outputs/` is where Codex puts generated practice drafts.
 - `workflows/opportunity-triage/prompt.md` contains the prompt you will copy into Codex.
 - `guides/` contains review checklists and supporting instructions.
 - `prompts/` contains reusable prompt templates for later. You do not need this folder to begin.
@@ -70,30 +72,32 @@ For this repository, focus on the chat, the files, and the review or diff view. 
 Begin with a simple request like this:
 
 ```text
-Please inspect START-HERE.md and the Opportunity Triage workflow. Summarize what files I should read first. Do not edit any files yet.
+Please inspect START-HERE.md and FIRST-RUN-PROMPT.md. Guide me through the first practice run. Do not edit any files yet.
 ```
 
 This helps you confirm that Codex is looking at the right repository and understands the starting workflow.
 
-## Ask Codex To Inspect Before Drafting
+## Start The Guided First Run
 
-Before asking Codex to create outputs, ask it to inspect the source packet:
+When you are ready to practice with a public SAM.gov opportunity:
 
-```text
-Please inspect the Opportunity Triage source packet and summarize the known facts, partial evidence, and unknowns. Do not edit files yet.
-```
+1. Open `FIRST-RUN-PROMPT.md`.
+2. Copy the text between `BEGIN PROMPT` and `END PROMPT`.
+3. Paste it into Codex.
+4. When Codex asks for the opportunity, send a public SAM.gov link, notice ID, solicitation number, or pasted opportunity text.
+5. Let Codex explain the sources it will use before it creates files.
 
-Check whether the summary matches the synthetic files. If it invents information, ask Codex to correct the summary before moving on.
+This is a normal part of the exercise. You are not expected to know the right opportunity before you begin.
 
-## Use The Workflow Prompt
+## Use The Fully Synthetic Prompt
 
-When you are ready to create the draft files:
+When you want every source fact to come from the repository:
 
 1. Open `workflows/opportunity-triage/prompt.md`.
 2. Copy the text between `BEGIN PROMPT` and `END PROMPT`.
 3. Paste it into Codex.
 4. Send the prompt.
-5. Let Codex create the draft files named in the prompt.
+5. Let Codex create the draft files in the workflow's `outputs/` folder.
 
 ## Review The Proposed Changes
 
@@ -103,7 +107,7 @@ Ask:
 
 1. Which files changed?
 2. Did Codex only create the expected draft files?
-3. Can each material fact be traced to the synthetic source files?
+3. Can each material fact be traced to the public opportunity source or approved synthetic files?
 4. Did Codex preserve unknowns and caveats?
 5. Does the draft still require qualified human review?
 
@@ -125,5 +129,5 @@ Focused revisions are easier to review than asking Codex to regenerate everythin
 - Ask Codex to inspect files before drafting.
 - Ask Codex to summarize its planned changes before editing.
 - Review every diff before accepting changes.
-- Challenge confident claims that are not supported by the synthetic files.
+- Challenge confident claims that are not supported by the public opportunity source or approved synthetic files.
 - Treat all outputs as drafts until qualified people review them.

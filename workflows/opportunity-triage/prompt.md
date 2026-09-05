@@ -5,6 +5,8 @@ Copy the text between `BEGIN PROMPT` and `END PROMPT` into Codex.
 ```text
 BEGIN PROMPT
 
+I am practicing the Opportunity Triage workflow for the first time. Please guide me through the exercise in plain language.
+
 Create a draft opportunity intake worksheet and bid/no-bid briefing aid using only:
 - workflows/opportunity-triage/data/source-packet-index.md
 - workflows/opportunity-triage/data/synthetic-opportunity-notice.md
@@ -19,9 +21,13 @@ Create a draft opportunity intake worksheet and bid/no-bid briefing aid using on
 - workflows/opportunity-triage/templates/opportunity-intake.md
 - workflows/opportunity-triage/templates/bid-no-bid-brief.md
 
-Create:
-- workflows/opportunity-triage/draft-opportunity-intake.md
-- workflows/opportunity-triage/draft-bid-no-bid-brief.md
+Create draft filenames that include the opportunity identifier so multiple practice runs can sit side by side.
+
+For this synthetic packet, use the synthetic opportunity ID:
+- workflows/opportunity-triage/outputs/draft-opportunity-intake-SYN-DCS-2030-014.md
+- workflows/opportunity-triage/outputs/draft-bid-no-bid-brief-SYN-DCS-2030-014.md
+
+If you adapt this prompt to a real public opportunity, use the solicitation number in the filenames instead.
 
 Scoring:
 - Score customer fit, capability fit, past performance fit, delivery readiness, and partner readiness from 0 to 2.
@@ -62,7 +68,9 @@ Rules:
 8. Do not provide legal, procurement, compliance, pricing, cybersecurity, or proposal advice.
 9. Do not turn the files into software, automation, integration logic, or a production system.
 
-Before editing, summarize the approved inputs, the planned files, and the main uncertainties you expect to preserve. Then create the drafts.
+Before editing, summarize the approved inputs, the planned files, and the main uncertainties you expect to preserve. Explain this as the next step in a practice exercise, not as a problem I should already know how to solve. State that no files have been created yet, ask for my explicit approval in the chat to create the two drafts, and stop until I answer affirmatively. Starting this workflow or opening the prompt does not authorize file creation. If either target file already exists, show its name and ask for separate explicit permission before replacing it.
+
+After I approve creation and you create the drafts, tell me what changed, what I should review first, and one useful follow-up question I can ask to practice reviewing Codex output.
 
 END PROMPT
 ```

@@ -9,7 +9,7 @@ Ask five questions:
 1. **What changed?** Read the added, removed, or revised content.
 2. **Which files changed?** Confirm that Codex changed only the expected output files.
 3. **Did the output follow the prompt?** Check the requested structure, fields, scores, and questions.
-4. **Did Codex invent facts?** Trace material statements to an approved synthetic input.
+4. **Did Codex invent facts?** Trace material statements to an approved source. For the guided first run, that means the public SAM.gov opportunity source and the approved synthetic company files.
 5. **Is human review preserved?** Confirm that the output remains a draft internal workflow aid requiring qualified human review.
 
 ## Reviewing Dense CSV Changes

@@ -4,6 +4,15 @@
 
 Match synthetic evidence to synthetic opportunity requirements without overstating what the evidence proves.
 
+## What You Will See
+
+This exercise starts with a fictional opportunity and fictional company records. Codex turns those records into two working documents so you can see how a team compares evidence with an opportunity:
+
+- The **evidence-fit brief** connects each opportunity need to the records that may support it, while preserving the limits of each record.
+- The **teaming-gap analysis** shows where additional capability or evidence may be needed and what a potential partner would still need to confirm.
+
+You are not expected to know the evidence ratings or inspect every record at once. Start by tracing one finding back to its record ID, then notice why a relevant example can still be only a partial match.
+
 ## Synthetic Input Guide
 
 - `synthetic-target-requirements.csv`: the fictional opportunity targets and expected evidence.
@@ -38,7 +47,7 @@ Use only these four ratings. A strong rating does not establish qualification or
 3. Inspect the evidence inventory, past performance, staff capabilities, workstream capacity, partner profiles, and diligence questions.
 4. Rate candidate evidence as strong, partial, unsupported, or unknown using the definitions above.
 5. Review the output structures in `templates/`.
-6. Copy the prompt from `prompt.md` into Codex. The prompt already tells Codex to create both draft files.
+6. Copy the prompt from `prompt.md` into Codex. It will introduce the two planned files, then ask for your approval before creating them in `outputs/`.
 7. Inspect the diff and trace every match to a record ID.
 8. Compare both drafts with `expected-output-guide.md`.
 9. Find at least one match that Codex may have overstated.

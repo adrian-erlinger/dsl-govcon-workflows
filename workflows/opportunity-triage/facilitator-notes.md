@@ -4,6 +4,10 @@ Opportunity Triage is the canonical first workflow and primary training test fix
 
 **Inspect -> Prompt -> Review -> Question -> Revise**
 
+For first-time users, the recommended live path is [FIRST-RUN-PROMPT.md](../../FIRST-RUN-PROMPT.md): participants use a real public SAM.gov opportunity as the practice target and the repository's synthetic company files as the pretend internal evidence. Coach this as a guided exercise. If a participant has not selected a SAM.gov notice yet, treat that as the next step, not a mistake.
+
+The fully synthetic packet remains useful when the group should avoid web lookup, use a fixed scenario, or compare outputs against the expected-output guide.
+
 ## Intended Teaching Tensions
 
 The synthetic case should not produce a clean, overconfident answer. It is designed to make Codex and the participant reason across:
@@ -27,9 +31,10 @@ There is no official score or answer key. A score is a discussion aid, not a mat
 
 Before using the workflow in a session, confirm that:
 
-- `START-HERE.md` points participants to Opportunity Triage first;
+- `START-HERE.md` points participants to Opportunity Triage first and reassures them that `FIRST-RUN-PROMPT.md` is a valid starting point;
 - the source packet index lists every approved synthetic input;
 - the prompt names only files that exist in the repository;
+- first-run output filenames include the solicitation number so multiple practice runs can sit side by side;
 - the expected-output guide asks reviewers to check scores, caveats, missing information, and conflicts;
 - the synthetic notice, review criteria, customer context, capability statement, past-performance records, and delivery-capacity data are all present;
 - participants understand that no real procurement, client, proposal, pricing, or proprietary data belongs in this repository.

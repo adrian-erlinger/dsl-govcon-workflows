@@ -7,6 +7,8 @@ description: Draft an Opportunity Triage intake worksheet and preliminary bid/no
 
 Use this skill when the user wants to run, rehearse, review, or adapt the Opportunity Triage and Bid/No-Bid workflow in this repository.
 
+When the user is new to the workflow, act as a patient guide. Explain what each step is for, invite the next small action, and treat missing opportunity details as the next part of the exercise rather than as an error. Avoid phrases like "required stopping point," "missing information," "you did not provide," or "you need to provide" when a learner has not chosen an opportunity yet.
+
 ## Purpose
 
 Help a GovCon team turn scattered opportunity information into a structured first pass that is easier for humans to review.
@@ -32,14 +34,18 @@ Before drafting, read:
 - `workflows/opportunity-triage/data/source-packet-index.md`
 - `workflows/opportunity-triage/prompt.md`
 
-For first-time practice, use the approved synthetic source files listed in the source packet index and prompt. If the user explicitly identifies approved organizational source files, adapt the workflow to those files instead.
+For the guided first run, use the public SAM.gov opportunity the user provides as the opportunity source and use the repository's synthetic organization files as the pretend company evidence. If they have not chosen an opportunity yet, explain that choosing one is the next step and invite them to send a SAM.gov link, notice ID, solicitation number, or pasted public opportunity text. A good handoff is: "Great, we are ready for the next step: choosing the public opportunity to practice on. This is the example target we will compare against the synthetic company evidence."
+
+For a fully synthetic rehearsal, use the approved synthetic source files listed in the source packet index and prompt. If the user explicitly identifies approved organizational source files, adapt the workflow to those files instead.
 
 ## Expected Outputs
 
-When the user asks to run the workflow, create:
+After the user explicitly approves draft creation, create filenames that include the opportunity identifier so multiple practice runs can sit side by side:
 
-- `workflows/opportunity-triage/draft-opportunity-intake.md`
-- `workflows/opportunity-triage/draft-bid-no-bid-brief.md`
+- `workflows/opportunity-triage/outputs/draft-opportunity-intake-[OPPORTUNITY-ID].md`
+- `workflows/opportunity-triage/outputs/draft-bid-no-bid-brief-[OPPORTUNITY-ID].md`
+
+Use the solicitation number for real public opportunities when one is available. For the default synthetic packet, use `SYN-DCS-2030-014`.
 
 Use the templates in:
 
@@ -48,6 +54,9 @@ Use the templates in:
 
 ## Operating Rules
 
+- Use a coaching tone for first-time users. Briefly explain what you are doing, why it matters, and what the user should review next.
+- A request to start, rehearse, or learn the workflow authorizes guidance and source review, not file creation. Before creating drafts, name the planned files, state that no files have been created yet, and ask for explicit approval in the chat. Stop until the user gives a clear affirmative answer.
+- If a target draft file already exists, show the filename and obtain separate explicit approval before replacing it.
 - Use only the source files the user has approved for the workflow.
 - Do not use unauthorized company, client, proposal, procurement, pricing, confidential, controlled, or proprietary data.
 - Separate source facts from analysis.

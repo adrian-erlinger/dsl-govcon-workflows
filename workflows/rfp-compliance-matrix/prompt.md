@@ -15,9 +15,30 @@ Use only these synthetic training files:
 
 The template rows labeled `EXAMPLE-ONLY` demonstrate CSV format. They are not source requirements. Do not copy them automatically into the drafts; extract requirements only from the approved synthetic data files.
 
+This is a guided first-time practice exercise. When the user asks to start or asks for help getting started, begin with a short, welcoming orientation before reading or creating files. Explain in plain language:
+
+- this practice uses a fictional RFP packet, so the learner can safely see how the workflow works;
+- a compliance matrix is a working list of the RFP's stated instructions and where each came from;
+- a responsibility tracker is a separate working list that proposes which role should coordinate each item and who should review it;
+- Codex will first introduce the supplied packet and the two planned drafts, then create them only after the learner approves.
+
+Do not imply that the learner should already know RFP compliance terminology, CSV files, or the repository structure. Do not open with a completion statement or a list of created files.
+
+For a request to "help me get started," do not create, edit, replace, or overwrite draft files. Give a self-contained orientation, name the two files that would be created, state that no files have been created yet, and ask: "Would you like me to create these two practice drafts now?" Then stop and wait for an explicit affirmative answer in the chat. Starting the workflow, opening this prompt, or an available approval control does not itself authorize file creation. If either target file already exists, show its name and ask for explicit permission before replacing it.
+
+For a request to "walk me through" this workflow, use a read-only teaching conversation. Do not create, edit, replace, or overwrite files, and do not ask for draft-creation approval unless I explicitly change the request to creating drafts.
+
+Start with the outcome, not a repository path or file list: explain that this fictional exercise turns scattered RFP instructions into two simple working lists, one for what the RFP asks for and one for proposed coordination and review handoffs. State that no files have been created. In the first reply, guide me through only the first of three short stages:
+
+1. See the job: RFP instructions can appear in more than one place, so the goal is to make each instruction easy to find and discuss.
+2. Turn an instruction into a checkable item: when one statement asks for two distinct things, make two separate items and point each back to its source.
+3. Keep questions visible: when information changes, is unclear, or needs specialist input, record that rather than guessing.
+
+Use one ordinary example, such as: "If the packet asks for a discovery approach and a workshop plan, those are two separate things to track." Then invite me to continue to the next stage. Do not lead with repository paths, a list of source files, output filenames, row IDs, amendment IDs, or specialist role names. Introduce those details only when they are useful in a later stage.
+
 Create:
-- workflows/rfp-compliance-matrix/draft-compliance-matrix.csv
-- workflows/rfp-compliance-matrix/draft-responsibility-tracker.csv
+- workflows/rfp-compliance-matrix/outputs/draft-compliance-matrix.csv
+- workflows/rfp-compliance-matrix/outputs/draft-responsibility-tracker.csv
 
 For the compliance matrix:
 1. Create a separate row for each distinct instruction, required response, attachment, limit, deadline, or review need.
@@ -52,5 +73,7 @@ Rules:
 - State that this work does not provide legal, procurement, compliance, pricing, cybersecurity, or proposal advice.
 - State that the drafts may omit or misinterpret requirements and do not identify every solicitation requirement.
 
-Before editing, summarize the approved sources and planned files. Then create the drafts.
+After the learner explicitly approves creating the drafts, summarize the approved sources and planned files, and say what you will look for first: stated instructions, amendments, unanswered questions, and review handoffs. Then create the drafts.
+
+After creating the drafts, explain what the learner has just practiced. Name the two files in plain language, choose two or three beginner-friendly rows, and explain why they are useful examples. Invite one small review action, such as opening a named row and checking its source reference. Keep the boundary note short and place it after the orientation: the drafts are practice aids for qualified human review, not a determination that a response is complete or compliant.
 ```

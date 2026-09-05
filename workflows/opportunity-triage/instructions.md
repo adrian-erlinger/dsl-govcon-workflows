@@ -2,23 +2,42 @@
 
 ## Goal
 
-Create a first-pass opportunity intake worksheet and bid/no-bid brief from the provided synthetic Opportunity Triage case packet.
+Create a first-pass opportunity intake worksheet and bid/no-bid brief that a human reviewer can inspect.
+
+For the guided first run, use a real public SAM.gov opportunity as the opportunity being reviewed and use the repository's synthetic company files as the pretend internal evidence. This gives first-time users a realistic practice target without asking them to provide real company data.
+
+For a fully synthetic rehearsal, use the synthetic opportunity packet included in this folder.
 
 ## Working Definitions
 
-- **Score 0:** Weak or no evidence in the supplied synthetic inputs.
-- **Score 1:** Partial or uncertain evidence in the supplied synthetic inputs.
-- **Score 2:** Strong evidence from the supplied synthetic inputs.
-- **Unknown:** The supplied inputs do not provide enough information to assign a score. Do not treat an unknown as a negative fact.
-- **Customer fit:** The strength of supplied evidence that Synthetic Organization Alpha has documented knowledge of or a relationship with the fictional customer. Use only the customer relationship and related information in the supplied synthetic files; do not infer familiarity from general capability fit.
-- **Red flag:** A known fact in the supplied inputs that may create pursuit or delivery risk.
-- **Missing information:** Information the supplied inputs do not provide. Record it as a question, not as a negative fact.
+- **Score 0:** Weak or no evidence in the approved sources.
+- **Score 1:** Partial or uncertain evidence in the approved sources.
+- **Score 2:** Strong evidence from the approved sources.
+- **Unknown:** The approved sources do not provide enough information to assign a score. Do not treat an unknown as a negative fact.
+- **Customer fit:** The strength of approved evidence that Synthetic Organization Alpha has documented knowledge of or a relationship with the customer named in the opportunity. Use only approved relationship evidence; do not infer customer familiarity from general capability fit.
+- **Red flag:** A known fact in the approved sources that may create pursuit or delivery risk.
+- **Missing information:** Information the approved sources do not provide. Record it as a question, not as a negative fact.
 
 Approved reviewer roles are: **BD lead, capture lead, proposal lead, contracts reviewer, technical SME, pricing lead, and executive reviewer**. These are suggested routing labels for questions and next steps, not facts about a real team or authorization for Codex to invent people.
 
-## Steps
+## Guided First Run
 
-1. Read the [source packet index](data/source-packet-index.md) to see the approved files.
+Use this path when the learner wants to practice with a real public SAM.gov opportunity and synthetic company evidence.
+
+1. Open [First-Run Starter Prompt](../../FIRST-RUN-PROMPT.md).
+2. When Codex asks for the opportunity, provide a public SAM.gov link, notice ID, solicitation number, or pasted opportunity text. This is just the example target for practice.
+3. Let Codex read the safety boundaries, this workflow overview, and the synthetic company evidence.
+4. Before Codex creates files, have it explain which public opportunity source it will use, which synthetic organization files it will use, and what uncertainties it will preserve.
+5. Have Codex create two draft files with the solicitation number in the filenames.
+6. Inspect the diff before accepting the drafts: confirm what changed, which files changed, whether the drafts followed the prompt, whether any facts were invented, and whether qualified human review remains required.
+7. Ask Codex to explain one score, risk, missing fact, or reviewer question that feels unclear.
+8. Revise the draft and apply the [human-review checklist](../../guides/human-review-checklist.md).
+
+## Fully Synthetic Rehearsal
+
+Use this path when the learner or facilitator wants every opportunity fact to come from the repository.
+
+1. Read the [source packet index](data/source-packet-index.md) to see the approved synthetic files.
 2. Read the [synthetic opportunity notice](data/synthetic-opportunity-notice.md) and [synthetic opportunity summary](data/synthetic-opportunity-summary.md).
 3. Open the [synthetic opportunity input CSV](data/synthetic-opportunity-input.csv) and use the `status` column to identify which fields are known, partial, or unknown.
 4. Read the [synthetic review criteria](data/synthetic-review-criteria.md). Notice which review factors are present and which evaluation details are missing.
@@ -26,14 +45,14 @@ Approved reviewer roles are: **BD lead, capture lead, proposal lead, contracts r
 6. Read the [synthetic capability statement](data/synthetic-capability-statement.md). Notice what it does and does not prove.
 7. Review the [past-performance snapshots](data/synthetic-past-performance-snapshots.csv), [delivery-capacity data](data/synthetic-delivery-capacity.csv), and [staffing and partner notes](data/synthetic-staffing-and-partner-notes.csv). Look for caveats, partial evidence, conflicts, and missing information.
 8. Review the output structures in the [opportunity intake template](templates/opportunity-intake.md) and [bid/no-bid brief template](templates/bid-no-bid-brief.md).
-9. Open the [opportunity triage prompt](prompt.md), copy the full text inside the code block, and paste it into Codex. The prompt already tells Codex to create both draft files outside the `templates/` folder.
-10. Inspect the diff before accepting the drafts: confirm what changed, which files changed, whether the drafts followed the prompt, whether any facts were invented, and whether qualified human review remains required.
+9. Open the [opportunity triage prompt](prompt.md), copy the full text inside the code block, and paste it into Codex. The prompt tells Codex to create both draft files in `outputs/`.
+10. Inspect the diff before accepting the drafts.
 11. Compare the drafts with the [expected output guide](expected-output-guide.md).
 12. Find at least one score, risk, source conflict, or recommendation that needs a human question.
 13. Revise the draft and apply the [human-review checklist](../../guides/human-review-checklist.md).
 
 ## Success Standard
 
-The drafts should make the team's reasoning and missing information easier to review. They should not make the final pursuit decision.
+The drafts should make the team's reasoning and missing information easier to review. A successful first run is not a perfect answer. It is a draft that helps a learner see the source facts, ask better reviewer questions, and notice where Codex may be too confident.
 
 This training does not provide legal, procurement, compliance, pricing, cybersecurity, or proposal advice. The output is a draft internal workflow aid requiring qualified human review.

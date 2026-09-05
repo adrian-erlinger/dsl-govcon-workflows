@@ -6,13 +6,27 @@ Founders, business development leads, capture managers, and small-business teams
 
 ## Practical Need
 
-Teams receive opportunity signals from many places but may lack a consistent first-pass triage process. This workflow turns a synthetic opportunity packet into a structured discussion aid.
+Teams receive opportunity signals from many places but may lack a consistent first-pass triage process. This workflow helps you practice turning an opportunity notice and company evidence into a structured discussion aid.
 
-This is the canonical first workflow in the repository. It is the polished test fixture for learning the pattern before exploring the additional examples.
+This is the canonical first workflow in the repository. In the guided first run, you use a real public SAM.gov opportunity as the opportunity being reviewed and the repository's synthetic company files as the pretend internal evidence. That lets you practice with a realistic public notice without using real company data.
+
+The repository also includes a fully synthetic opportunity packet for closed rehearsals and facilitator-led demos.
 
 Codex helps the team get to a more structured, evidence-based conversation faster. The pursuit decision still belongs to the team.
 
-## Inputs
+## Practice Inputs
+
+For the guided first run:
+
+- a real public SAM.gov opportunity link, notice ID, solicitation number, or pasted opportunity text;
+- the synthetic capability statement;
+- synthetic past-performance snapshots;
+- synthetic delivery-capacity data;
+- synthetic staffing and partner-readiness notes;
+- synthetic review criteria as a practice scoring frame;
+- blank Markdown templates for the two draft outputs.
+
+For the fully synthetic rehearsal:
 
 - synthetic opportunity notice;
 - synthetic opportunity summary;
@@ -41,7 +55,7 @@ The output is a draft internal workflow aid. It is not a final bid/no-bid decisi
 You will practice how to:
 
 - understand the permitted-data and professional-advice boundaries;
-- inspect a synthetic case packet before asking Codex to act;
+- inspect the public opportunity source and synthetic company evidence before asking Codex to act;
 - use a structured prompt with named inputs and expected outputs;
 - create draft Markdown workflow aids;
 - inspect a Codex diff;
@@ -52,23 +66,25 @@ You will practice how to:
 | Step | Activity |
 |---|---|
 | 1 | Read the safety boundaries and workflow instructions |
-| 2 | Inspect the synthetic opportunity case packet |
-| 3 | Review the blank output templates |
-| 4 | Run the Opportunity Triage prompt and create the draft files |
+| 2 | Choose a public SAM.gov opportunity for the guided first run, or use the fully synthetic packet |
+| 3 | Inspect the synthetic company evidence and blank output templates |
+| 4 | Run the starter prompt, review the planned files, and explicitly approve their creation |
 | 5 | Review the diff and trace findings to sources |
 | 6 | Revise one weak assumption, overstated score, or unclear reviewer question |
 | 7 | Reflect on how the pattern could later apply to an approved real workflow |
 
 ## Try This Workflow
 
-1. If Codex is new to you, read [Codex Setup and Navigation](../../guides/codex-setup-and-navigation.md).
-2. Open [Instructions](instructions.md).
-3. Inspect the [Source Packet Index](data/source-packet-index.md) and approved files in `data/`.
-4. Read the [Synthetic Opportunity Notice](data/synthetic-opportunity-notice.md), [Synthetic Opportunity Summary](data/synthetic-opportunity-summary.md), [Synthetic Opportunity Input](data/synthetic-opportunity-input.csv), [Synthetic Review Criteria](data/synthetic-review-criteria.md), [Synthetic Customer Context](data/synthetic-customer-context.md), [Synthetic Capability Statement](data/synthetic-capability-statement.md), [Past Performance Snapshots](data/synthetic-past-performance-snapshots.csv), [Delivery Capacity](data/synthetic-delivery-capacity.csv), and [Staffing and Partner Notes](data/synthetic-staffing-and-partner-notes.csv).
-5. Review the [Opportunity Intake Template](templates/opportunity-intake.md) and [Bid/No-Bid Brief Template](templates/bid-no-bid-brief.md).
-6. Use [prompt.md](prompt.md).
-7. Compare the result with [Expected Output Guide](expected-output-guide.md).
-8. Use [Reviewing Codex Diffs](../../guides/reviewing-codex-diffs.md) and the [Human Review Checklist](../../guides/human-review-checklist.md) before accepting any draft.
+Use the path your facilitator gives you. If you are practicing on your own, start with the guided first run.
+
+1. Open [First-Run Starter Prompt](../../FIRST-RUN-PROMPT.md).
+2. Give Codex a public SAM.gov link, notice ID, solicitation number, or pasted opportunity text when it asks for the opportunity.
+3. Let Codex compare that public opportunity with the synthetic company evidence.
+4. Review the planned draft files, then explicitly tell Codex to create them. Their filenames should include the solicitation number.
+5. Ask Codex to explain one score, risk, missing fact, or reviewer question that seems unclear.
+6. Use [Reviewing Codex Diffs](../../guides/reviewing-codex-diffs.md) and the [Human Review Checklist](../../guides/human-review-checklist.md) before accepting any draft.
+
+For a closed synthetic rehearsal, use [prompt.md](prompt.md). That version uses only the files listed in the [Source Packet Index](data/source-packet-index.md).
 
 Facilitators can also review [Facilitator Notes](facilitator-notes.md) before running a live session.
 

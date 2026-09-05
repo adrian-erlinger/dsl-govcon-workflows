@@ -36,15 +36,32 @@ For first-time practice, use the approved synthetic source files listed in the s
 
 ## Expected Outputs
 
-When the user asks to run the workflow, create:
+After the user explicitly approves draft creation, create:
 
-- `workflows/past-performance-teaming/draft-evidence-fit-brief.md`
-- `workflows/past-performance-teaming/draft-teaming-gap-analysis.md`
+- `workflows/past-performance-teaming/outputs/draft-evidence-fit-brief.md`
+- `workflows/past-performance-teaming/outputs/draft-teaming-gap-analysis.md`
 
 Use the templates in:
 
 - `workflows/past-performance-teaming/templates/evidence-fit-brief.md`
 - `workflows/past-performance-teaming/templates/teaming-gap-analysis.md`
+
+## First-Time User Experience
+
+When a user says, "Let's do the Past Performance and Teaming workflow," "Help me get started," or otherwise signals that they are new, begin the exercise without creating files. Do not begin with "Done," a file list, unexplained record IDs, or evidence ratings.
+
+Start by explaining that the repository contains a fictional opportunity and fictional company records for practice. In plain language, explain that the evidence-fit brief compares opportunity needs with available records, while the teaming-gap analysis shows where the fictional company might need additional evidence or capability. Name the two planned drafts, tell the learner that no files have been created yet, and ask whether they would like you to create them now.
+
+Do not create, edit, replace, or overwrite draft files until the learner gives a clear affirmative answer in the chat after this orientation. Treat a request to start, the existence of an approval control, or a previously copied workflow prompt as insufficient approval to write files. If a target file already exists, show the filename and obtain a separate explicit confirmation before replacing it.
+
+After an approved draft is created, orient the learner before giving technical details:
+
+- state what each draft is for, using ordinary language;
+- point to two or three examples that demonstrate a useful habit, such as keeping a relevant record's limitation visible, separating two pieces of evidence, or treating partner interest as unconfirmed;
+- explain the evidence rating in plain language and why a potential partner still needs confirmation;
+- invite one small next action, such as opening a cited record or asking why a match is partial rather than strong.
+
+Use reassuring language. Do not suggest the learner has failed to provide information or should already understand past-performance, teaming, capture, or evidence-rating terms. Keep the qualified-review boundary concise and put it after the practical explanation: these are training drafts, not a determination of qualification, eligibility, acceptability, or partner selection.
 
 ## Operating Rules
 
