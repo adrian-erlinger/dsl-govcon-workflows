@@ -1,8 +1,8 @@
 # Build Reviewable GovCon AI Workflows With Codex
 
-This private training repository helps GovCon professionals use Codex to create structured, reviewable internal workflow assets. It includes synthetic data so first-time users can practice immediately, and it shows how the same pattern can later be applied with approved organizational data.
+This public training repository helps GovCon professionals use Codex to create structured, reviewable internal workflow assets. It includes synthetic data so first-time users can practice immediately, and it shows how the same pattern can later be applied with approved organizational data.
 
-The repository is designed for zero setup before learning: a first-time user should be able to download or clone it, open the folder in Codex, read [START-HERE.md](START-HERE.md), inspect the supplied synthetic opportunity notice, structured data, capability statement, past-performance records, review criteria, customer context, and delivery-capacity notes, then run the Opportunity Triage learning path without creating, uploading, or modifying source data first.
+The repository is designed for zero setup before learning: a first-time user should be able to download or clone it, open the folder in Codex, read [START-HERE.md](START-HERE.md), and run the synthetic Opportunity Triage learning path without creating, uploading, or modifying source data first.
 
 ## Who This Workshop Is For
 
@@ -44,13 +44,19 @@ The reference examples are:
 
 ## Start Here
 
-Start with [START-HERE.md](START-HERE.md). If you want the fastest self-guided path, use [First-Run Starter Prompt](FIRST-RUN-PROMPT.md) to have Codex walk through the Opportunity Triage workflow with you.
+Start with [START-HERE.md](START-HERE.md). The fastest self-guided path is a 15-minute synthetic Opportunity Triage exercise using [First-Run Starter Prompt](FIRST-RUN-PROMPT.md). Try a public SAM.gov opportunity only after that first success.
 
 Opportunity Triage is the polished test use case for learning how the repository works. After completing it, read [Replacing Synthetic Data](guides/replacing-synthetic-data.md) to see where approved organizational documents would substitute for the training files in a governed environment.
 
 When you are ready to move beyond the first exercise, read [After The Basics](guides/after-the-basics.md). It explains the two next paths: replacing synthetic data with approved real data in a governed workspace, and designing your own GovCon workflows in Codex.
 
 The repository also includes reusable Codex Skill blueprints in `skills/` for the three workflow examples. These are best discussed after participants have tried the prompt-based workflow once.
+
+## Public Use
+
+You may explore this public repository, clone it, and use the included fictional source packet for individual learning or facilitator-led training. Review [Public Use and Boundaries](PUBLIC-USE.md) before adapting, redistributing, or combining these materials with other sources.
+
+Completed draft artifacts are kept in [examples/](examples/) so they remain distinct from the empty learner-output folders in each workflow.
 
 ## Important Boundary
 

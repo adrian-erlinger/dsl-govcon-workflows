@@ -34,9 +34,9 @@ Before drafting, read:
 - `workflows/opportunity-triage/data/source-packet-index.md`
 - `workflows/opportunity-triage/prompt.md`
 
-For the guided first run, use the public SAM.gov opportunity the user provides as the opportunity source and use the repository's synthetic organization files as the pretend company evidence. If they have not chosen an opportunity yet, explain that choosing one is the next step and invite them to send a SAM.gov link, notice ID, solicitation number, or pasted public opportunity text. A good handoff is: "Great, we are ready for the next step: choosing the public opportunity to practice on. This is the example target we will compare against the synthetic company evidence."
+For a learner's first run, use the approved fully synthetic source files listed in the source packet index and prompt. Explain that the fixed scenario lets them practice tracing facts, uncertainty, and conflicts without finding an outside opportunity.
 
-For a fully synthetic rehearsal, use the approved synthetic source files listed in the source packet index and prompt. If the user explicitly identifies approved organizational source files, adapt the workflow to those files instead.
+After the learner completes the synthetic exercise, use a public SAM.gov opportunity only when the user asks for that optional practice path. If they have not chosen an opportunity yet, explain that choosing one is the next step and invite them to send a SAM.gov link, notice ID, solicitation number, or pasted opportunity text. If the user explicitly identifies approved organizational source files, adapt the workflow to those files instead.
 
 ## Expected Outputs
 
@@ -45,7 +45,7 @@ After the user explicitly approves draft creation, create filenames that include
 - `workflows/opportunity-triage/outputs/draft-opportunity-intake-[OPPORTUNITY-ID].md`
 - `workflows/opportunity-triage/outputs/draft-bid-no-bid-brief-[OPPORTUNITY-ID].md`
 
-Use the solicitation number for real public opportunities when one is available. For the default synthetic packet, use `SYN-DCS-2030-014`.
+For the default synthetic packet, use `SYN-DCS-2030-014`. Use the solicitation number for real public opportunities when one is available.
 
 Use the templates in:
 

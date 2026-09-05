@@ -4,9 +4,9 @@
 
 Create a first-pass opportunity intake worksheet and bid/no-bid brief that a human reviewer can inspect.
 
-For the guided first run, use a real public SAM.gov opportunity as the opportunity being reviewed and use the repository's synthetic company files as the pretend internal evidence. This gives first-time users a realistic practice target without asking them to provide real company data.
+For the first run, use the fully synthetic opportunity packet in this folder. Every opportunity and organization fact comes from the repository, so the learner can focus on source traceability, uncertainty, and review discipline.
 
-For a fully synthetic rehearsal, use the synthetic opportunity packet included in this folder.
+After completing the synthetic exercise, a learner may use a public SAM.gov opportunity with the [Public SAM.gov Practice Reference Prompt](../../FIRST-RUN-REFERENCE-PROMPT.md). Use approved organizational sources only when the data and workspace are approved.
 
 ## Working Definitions
 
@@ -20,36 +20,32 @@ For a fully synthetic rehearsal, use the synthetic opportunity packet included i
 
 Approved reviewer roles are: **BD lead, capture lead, proposal lead, contracts reviewer, technical SME, pricing lead, and executive reviewer**. These are suggested routing labels for questions and next steps, not facts about a real team or authorization for Codex to invent people.
 
-## Guided First Run
+## First Run: Fully Synthetic
 
-Use this path when the learner wants to practice with a real public SAM.gov opportunity and synthetic company evidence.
+1. Open [First-Run Starter Prompt](../../FIRST-RUN-PROMPT.md) and paste it into Codex.
+2. Let Codex read the safety boundaries, this workflow overview, the [source packet index](data/source-packet-index.md), and the workflow prompt.
+3. Before Codex creates files, check that it identifies the synthetic sources, one unknown or weak point, and the two planned drafts.
+4. Explicitly approve creation only after you review that plan.
+5. Inspect the diff: confirm what changed, which files changed, whether the drafts followed the prompt, whether any facts were invented, and whether qualified human review remains required.
+6. Ask Codex to explain one score, risk, missing fact, or reviewer question by tracing it to the source.
+7. Revise the draft and apply the [human-review checklist](../../guides/human-review-checklist.md).
 
-1. Open [First-Run Starter Prompt](../../FIRST-RUN-PROMPT.md).
-2. When Codex asks for the opportunity, provide a public SAM.gov link, notice ID, solicitation number, or pasted opportunity text. This is just the example target for practice.
-3. Let Codex read the safety boundaries, this workflow overview, and the synthetic company evidence.
-4. Before Codex creates files, have it explain which public opportunity source it will use, which synthetic organization files it will use, and what uncertainties it will preserve.
-5. Have Codex create two draft files with the solicitation number in the filenames.
-6. Inspect the diff before accepting the drafts: confirm what changed, which files changed, whether the drafts followed the prompt, whether any facts were invented, and whether qualified human review remains required.
-7. Ask Codex to explain one score, risk, missing fact, or reviewer question that feels unclear.
-8. Revise the draft and apply the [human-review checklist](../../guides/human-review-checklist.md).
+> **Why this matters:** The source packet is the boundary for the exercise. It lets you test whether Codex preserves unknowns instead of filling gaps with plausible-sounding claims.
 
-## Fully Synthetic Rehearsal
+> **You are doing well if:** You can point to a source row, field, or section behind one material claim and name one item the sources do not establish.
 
-Use this path when the learner or facilitator wants every opportunity fact to come from the repository.
+## Synthetic Source Packet Walkthrough
 
 1. Read the [source packet index](data/source-packet-index.md) to see the approved synthetic files.
-2. Read the [synthetic opportunity notice](data/synthetic-opportunity-notice.md) and [synthetic opportunity summary](data/synthetic-opportunity-summary.md).
-3. Open the [synthetic opportunity input CSV](data/synthetic-opportunity-input.csv) and use the `status` column to identify which fields are known, partial, or unknown.
-4. Read the [synthetic review criteria](data/synthetic-review-criteria.md). Notice which review factors are present and which evaluation details are missing.
-5. Read the [synthetic customer context](data/synthetic-customer-context.md). Notice the difference between general customer context and a documented customer relationship. Preserve the conflicting on-site-session note as an unresolved source conflict.
-6. Read the [synthetic capability statement](data/synthetic-capability-statement.md). Notice what it does and does not prove.
-7. Review the [past-performance snapshots](data/synthetic-past-performance-snapshots.csv), [delivery-capacity data](data/synthetic-delivery-capacity.csv), and [staffing and partner notes](data/synthetic-staffing-and-partner-notes.csv). Look for caveats, partial evidence, conflicts, and missing information.
-8. Review the output structures in the [opportunity intake template](templates/opportunity-intake.md) and [bid/no-bid brief template](templates/bid-no-bid-brief.md).
-9. Open the [opportunity triage prompt](prompt.md), copy the full text inside the code block, and paste it into Codex. The prompt tells Codex to create both draft files in `outputs/`.
-10. Inspect the diff before accepting the drafts.
-11. Compare the drafts with the [expected output guide](expected-output-guide.md).
-12. Find at least one score, risk, source conflict, or recommendation that needs a human question.
-13. Revise the draft and apply the [human-review checklist](../../guides/human-review-checklist.md).
+2. Read the [synthetic opportunity notice](data/synthetic-opportunity-notice.md), [synthetic opportunity summary](data/synthetic-opportunity-summary.md), and [synthetic opportunity input CSV](data/synthetic-opportunity-input.csv). Use the CSV's `status` column to identify known, partial, or unknown fields.
+3. Read the [synthetic review criteria](data/synthetic-review-criteria.md) and [synthetic customer context](data/synthetic-customer-context.md). Preserve the conflicting on-site-session note as unresolved.
+4. Review the [synthetic capability statement](data/synthetic-capability-statement.md), [past-performance snapshots](data/synthetic-past-performance-snapshots.csv), [delivery-capacity data](data/synthetic-delivery-capacity.csv), and [staffing and partner notes](data/synthetic-staffing-and-partner-notes.csv).
+5. Review the [opportunity intake template](templates/opportunity-intake.md) and [bid/no-bid brief template](templates/bid-no-bid-brief.md).
+6. Compare the drafts with the [expected output guide](expected-output-guide.md).
+
+## Try 2: Public Opportunity Practice
+
+Use the public-SAM prompt only after completing the fully synthetic first run. It uses one public opportunity as the practice target and the repository's synthetic organization files as pretend company evidence. If a learner has not chosen an opportunity, treat that as the next optional step rather than a mistake.
 
 ## Success Standard
 

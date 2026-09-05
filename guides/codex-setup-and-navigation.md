@@ -4,7 +4,7 @@ Use this guide if this is your first time opening Codex or if you have never ope
 
 ## What Codex Is Doing Here
 
-In this repository, Codex is working with local Markdown and CSV files. In the first guided exercise, you will give Codex a real public SAM.gov opportunity and use the repository's synthetic company files as practice evidence. Codex will draft two reviewable workflow aids and show you the proposed file changes before you decide what to keep.
+In this repository, Codex is working with local Markdown and CSV files. In the first guided exercise, it uses the repository's fully synthetic opportunity and organization evidence. Codex will draft two reviewable workflow aids and show you the proposed file changes before you decide what to keep.
 
 Codex is not making a final bid/no-bid decision. It is helping you draft and review files.
 
@@ -52,7 +52,7 @@ Codex may look slightly different depending on the version or surface you use, b
 - **Chat history:** where you can return to earlier Codex conversations.
 - **Settings or permissions:** where Codex may ask before reading, editing, running commands, or using external access.
 
-For this repository, focus on the chat, the files, and the review or diff view. You do not need to use integrations, plugins, or production tools. If you use a SAM.gov opportunity, keep it to public opportunity information.
+For this repository, focus on the chat, the files, and the review or diff view. You do not need to use integrations, plugins, or production tools. A public SAM.gov opportunity is an optional second exercise; keep it to public opportunity information.
 
 ## Find The Important Areas
 
@@ -77,27 +77,21 @@ Please inspect START-HERE.md and FIRST-RUN-PROMPT.md. Guide me through the first
 
 This helps you confirm that Codex is looking at the right repository and understands the starting workflow.
 
-## Start The Guided First Run
+## Start the Guided First Run
 
-When you are ready to practice with a public SAM.gov opportunity:
+Use the fully synthetic first run:
 
 1. Open `FIRST-RUN-PROMPT.md`.
-2. Copy the text between `BEGIN PROMPT` and `END PROMPT`.
-3. Paste it into Codex.
-4. When Codex asks for the opportunity, send a public SAM.gov link, notice ID, solicitation number, or pasted opportunity text.
-5. Let Codex explain the sources it will use before it creates files.
+2. Copy the prompt into Codex.
+3. Let Codex explain the synthetic sources, uncertainty, and planned files before it creates anything.
+4. Review that plan and approve creation only if it matches the exercise.
+5. Review the drafts in the workflow's `outputs/` folder.
 
-This is a normal part of the exercise. You are not expected to know the right opportunity before you begin.
+You are doing well if you can name one source Codex may use and one fact the sources do not establish.
 
-## Use The Fully Synthetic Prompt
+## Try a Public Opportunity Later
 
-When you want every source fact to come from the repository:
-
-1. Open `workflows/opportunity-triage/prompt.md`.
-2. Copy the text between `BEGIN PROMPT` and `END PROMPT`.
-3. Paste it into Codex.
-4. Send the prompt.
-5. Let Codex create the draft files in the workflow's `outputs/` folder.
+After finishing the synthetic exercise, open `FIRST-RUN-REFERENCE-PROMPT.md` to practice with a public SAM.gov link, notice ID, solicitation number, or pasted opportunity text. This is optional and does not change the first-run source boundary.
 
 ## Review The Proposed Changes
 
@@ -107,7 +101,7 @@ Ask:
 
 1. Which files changed?
 2. Did Codex only create the expected draft files?
-3. Can each material fact be traced to the public opportunity source or approved synthetic files?
+3. Can each material fact be traced to an approved synthetic source?
 4. Did Codex preserve unknowns and caveats?
 5. Does the draft still require qualified human review?
 
@@ -129,5 +123,5 @@ Focused revisions are easier to review than asking Codex to regenerate everythin
 - Ask Codex to inspect files before drafting.
 - Ask Codex to summarize its planned changes before editing.
 - Review every diff before accepting changes.
-- Challenge confident claims that are not supported by the public opportunity source or approved synthetic files.
+- Challenge confident claims that are not supported by the approved synthetic files.
 - Treat all outputs as drafts until qualified people review them.

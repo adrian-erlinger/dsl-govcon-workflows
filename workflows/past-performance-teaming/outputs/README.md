@@ -1,6 +1,6 @@
 # Past Performance And Teaming Outputs
 
-Codex writes generated Past Performance and Teaming practice drafts here.
+Codex writes generated Past Performance and Teaming practice drafts here. This folder starts with this README only; the draft files appear after you run an exercise.
 
 Expected draft files:
 
