@@ -43,7 +43,7 @@ If you want help navigating Codex before the exercise, read [Codex Setup and Nav
 
 ## Try 2: Public SAM.gov Opportunity
 
-After completing the synthetic exercise, use the detailed [Public SAM.gov Practice Reference Prompt](FIRST-RUN-REFERENCE-PROMPT.md) to compare one public opportunity with the repository's synthetic organization evidence. This optional second exercise is not a prerequisite for starting.
+After completing the synthetic exercise, use the [public SAM.gov section in the First-Run Prompt](FIRST-RUN-PROMPT.md#try-2-public-samgov-opportunity) to compare one public opportunity with the repository's synthetic organization evidence. This optional second exercise is not a prerequisite for starting.
 
 ## Additional Example Workflows
 

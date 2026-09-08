@@ -91,7 +91,7 @@ You are doing well if you can name one source Codex may use and one fact the sou
 
 ## Try a Public Opportunity Later
 
-After finishing the synthetic exercise, open `FIRST-RUN-REFERENCE-PROMPT.md` to practice with a public SAM.gov link, notice ID, solicitation number, or pasted opportunity text. This is optional and does not change the first-run source boundary.
+After finishing the synthetic exercise, open the **Try 2: Public SAM.gov Opportunity** section in `FIRST-RUN-PROMPT.md` to practice with a public SAM.gov link, notice ID, solicitation number, or pasted opportunity text. This is optional and does not change the first-run source boundary.
 
 ## Review The Proposed Changes
 

@@ -6,7 +6,7 @@ Create a first-pass opportunity intake worksheet and bid/no-bid brief that a hum
 
 For the first run, use the fully synthetic opportunity packet in this folder. Every opportunity and organization fact comes from the repository, so the learner can focus on source traceability, uncertainty, and review discipline.
 
-After completing the synthetic exercise, a learner may use a public SAM.gov opportunity with the [Public SAM.gov Practice Reference Prompt](../../FIRST-RUN-REFERENCE-PROMPT.md). Use approved organizational sources only when the data and workspace are approved.
+After completing the synthetic exercise, a learner may use a public SAM.gov opportunity with the [public SAM.gov section in the First-Run Prompt](../../FIRST-RUN-PROMPT.md#try-2-public-samgov-opportunity). Use approved organizational sources only when the data and workspace are approved.
 
 ## Working Definitions
 

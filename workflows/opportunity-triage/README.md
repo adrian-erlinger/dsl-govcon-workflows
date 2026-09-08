@@ -73,7 +73,7 @@ If you are practicing on your own, start with the fully synthetic first run.
 4. Ask Codex to explain one score, risk, missing fact, or reviewer question that seems unclear.
 5. Use [Reviewing Codex Diffs](../../guides/reviewing-codex-diffs.md) and the [Human Review Checklist](../../guides/human-review-checklist.md) before accepting any draft.
 
-For a fuller walkthrough of the synthetic sources, use [instructions.md](instructions.md) and [prompt.md](prompt.md). For the optional second exercise with a public opportunity, use the [Public SAM.gov Practice Reference Prompt](../../FIRST-RUN-REFERENCE-PROMPT.md).
+For a fuller walkthrough of the synthetic sources, use [instructions.md](instructions.md) and [prompt.md](prompt.md). For the optional second exercise with a public opportunity, use the [public SAM.gov section in the First-Run Prompt](../../FIRST-RUN-PROMPT.md#try-2-public-samgov-opportunity).
 
 Facilitators can review [Facilitator Notes](facilitator-notes.md) before running a live session.
 
